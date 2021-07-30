@@ -1,0 +1,64 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.navbar {
+  margin-top: 20px;
+
+  @extend .navbar-expand-md;
+  @extend .navbar-light;
+  @extend .bg-transparent;
+}
+
+.collapse {
+  @extend .navbar-collapse;
+}
+.navbar-nav {
+  @extend .ml-auto;
+}
+
+.logo {
+  margin-top: -10px;
+  @extend .navbar-brand;
+}
+
+.navMenuList {
+  @extend .navbar-nav;
+}
+
+.navMenuListItem {
+  @extend .nav-item;
+}
+
+.navMenuLink {
+  @extend .nav-link;
+  @extend .text-white;
+}
+
+@media only screen and (min-width: 425px) {
+  .logo {
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    margin-left: -35px;
+  }
+  .navbar-nav {
+    margin-right: -20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .logo {
+    margin-left: -180px;
+  }
+  .navbar-nav {
+    margin-right: -150px;
+  }
+}
