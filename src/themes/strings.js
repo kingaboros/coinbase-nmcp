@@ -1,53 +1,20 @@
 const strings = {
+  navbar: {
+    home: 'Home',
+    about: 'About Us',
+    blog: 'Blog',
+    contact: 'Contact Us',
+    dropdownTitle: 'Sell Bitcoin/Giftcard',
+    dropdown1: 'Sell Bitcoin',
+    dropdown2: 'Sell Giftcard',
+  },
   buttons: {
-    navbarBtn: 'Work with us',
-    listingsBtn: 'See all listings',
-    paragraphBtn: 'Learn more',
-    footerBtn: 'Work with us',
-    filterBtn: 'Filter Properties',
-    signupBtn: 'Sign Up',
-    loginBtn: 'Login',
-    logOutBtn: 'Log Out',
-    resetPassBtn: 'Reset Password',
+    navbarBtn: 'Login',
   },
-  headings: {
-    headerHeading: 'Beautiful homes made for you',
-    headingText1: `You're in good hands`,
-    filtersHeading: 'Find your next place to live',
-    footerHeading: 'Make your dreams a',
-    footerHeadingOrange: ' reality',
-    footerColumnHeading: 'Column heading',
-  },
-  auth: {
-    signUpHeading: 'Sign Up',
-    logInHeading: 'Log In',
-    forgotPassHeading: 'Password Reset',
-    myProfileHeading: 'My Profile',
-    haveAccount: 'Already have an account?',
-    noAccount: 'Need an account?',
-    forgotPass: 'Forgot password?',
-    login: ' Log in here',
-    signup: ' Sign up now',
-  },
-  descriptions: {
-    headerText:
-      'In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus, omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus quid.',
-
-    text1:
-      'Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit, ne ferae quidem se repellere, idque instituit docere sic: omne animal, simul atque integre iudicante itaque aiunt hanc quasi involuta aperiri, altera occulta quaedam et voluptatem accusantium doloremque.',
-  },
-  filterLabels: {
-    location: 'Location',
-    looking: 'Name',
-    price: 'Price',
-    property: 'Rooms',
-  },
-  testimonials: {
-    testimonial1:
-      'Certe, inquam, pertinax non existimant oportere exquisitis rationibus conquisitis de quo enim ipsam. Torquem detraxit hosti et quidem faciunt, ut aut.',
-    testimonialName1: 'Lara Madrigal',
-    testimonialRole1: 'Client',
-  },
+  headings: {},
+  auth: {},
+  descriptions: {},
+  filterLabels: {},
 };
 
 export default strings;

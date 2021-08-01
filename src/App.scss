@@ -1,6 +1,9 @@
+@import './themes/colors.scss';
+
 * {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
+  background-color: $pageBackground;
 }
 
 .body {

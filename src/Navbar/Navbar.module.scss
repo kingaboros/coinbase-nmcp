@@ -1,64 +1,29 @@
+@import '../themes/colors.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.navbar {
-  margin-top: 20px;
-
-  @extend .navbar-expand-md;
-  @extend .navbar-light;
-  @extend .bg-transparent;
-}
-
-.collapse {
-  @extend .navbar-collapse;
-}
-.navbar-nav {
-  @extend .ml-auto;
+.navbarWrapper {
+  padding: 2.5rem;
 }
 
 .logo {
-  margin-top: -10px;
-  @extend .navbar-brand;
+  margin-top: -0.4rem;
 }
 
-.navMenuList {
-  @extend .navbar-nav;
+.navbar {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.navMenuListItem {
-  @extend .nav-item;
+.navLinks {
+  font-weight: bold;
+  color: $black;
+  margin-top: 1rem;
 }
-
-.navMenuLink {
-  @extend .nav-link;
-  @extend .text-white;
-}
-
-@media only screen and (min-width: 425px) {
-  .logo {
-    margin-left: 35px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .logo {
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .logo {
-    margin-left: -35px;
-  }
-  .navbar-nav {
-    margin-right: -20px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .logo {
-    margin-left: -180px;
-  }
-  .navbar-nav {
-    margin-right: -150px;
-  }
+.navBtn {
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  font-weight: bold;
+  width: 9rem;
+  margin-top: -0.3rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1.5rem;
 }
