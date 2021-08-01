@@ -3,7 +3,7 @@ import React from 'react';
 import './App.scss';
 
 const App = () => {
-  return <div>hey</div>;
+  return <div></div>;
 };
 
 export default App;
