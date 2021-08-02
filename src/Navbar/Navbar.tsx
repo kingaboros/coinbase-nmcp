@@ -1,10 +1,11 @@
 import React from 'react';
-import { Navbar, Container, NavDropdown, Nav, Button } from 'react-bootstrap';
-
+import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import Buttons from '../components/Buttons/Buttons';
 import strings from '../themes/strings';
 import images from '../themes/images';
 
 import * as navStyle from './Navbar.module.scss';
+import * as btnStyle from '../components/Buttons/Buttons.module.scss';
 
 const NavBar = () => {
   return (
@@ -31,9 +32,11 @@ const NavBar = () => {
                 {strings.navbar.dropdown2}
               </NavDropdown.Item>
             </NavDropdown>
-            <Button href="login" className={navStyle.navBtn}>
-              {strings.buttons.navbarBtn}
-            </Button>
+            <Buttons
+              url="login"
+              btnClass={btnStyle.navBtn}
+              btnName={strings.buttons.navbarBtn}
+            />
           </Nav>
         </Navbar.Collapse>
       </Container>
