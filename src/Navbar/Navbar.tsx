@@ -17,11 +17,20 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className={navStyle.navbar} id="basic-navbar-nav">
           <Nav className={navStyle.navLinks}>
-            <Nav.Link href="/">{strings.navbar.home}</Nav.Link>
-            <Nav.Link href="about">{strings.navbar.about}</Nav.Link>
-            <Nav.Link href="blog">{strings.navbar.blog}</Nav.Link>
-            <Nav.Link href="contact">{strings.navbar.contact}</Nav.Link>
+            <Nav.Link className={navStyle.navLinkItem} href="/">
+              {strings.navbar.home}
+            </Nav.Link>
+            <Nav.Link className={navStyle.navLinkItem} href="about">
+              {strings.navbar.about}
+            </Nav.Link>
+            <Nav.Link className={navStyle.navLinkItem} href="blog">
+              {strings.navbar.blog}
+            </Nav.Link>
+            <Nav.Link className={navStyle.navLinkItem} href="contact">
+              {strings.navbar.contact}
+            </Nav.Link>
             <NavDropdown
+              className={navStyle.navLinkItem}
               title={strings.navbar.dropdownTitle}
               id="basic-nav-dropdown"
             >
