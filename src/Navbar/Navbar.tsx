@@ -17,21 +17,21 @@ const NavBar = () => {
         <Navbar.Collapse className={navStyle.navbar} id="basic-navbar-nav">
           <Nav className={navStyle.navLinks}>
             <Nav.Link href="/">{strings.navbar.home}</Nav.Link>
-            <Nav.Link href="#about">{strings.navbar.about}</Nav.Link>
-            <Nav.Link href="#blog">{strings.navbar.blog}</Nav.Link>
-            <Nav.Link href="#contact">{strings.navbar.contact}</Nav.Link>
+            <Nav.Link href="about">{strings.navbar.about}</Nav.Link>
+            <Nav.Link href="blog">{strings.navbar.blog}</Nav.Link>
+            <Nav.Link href="contact">{strings.navbar.contact}</Nav.Link>
             <NavDropdown
               title={strings.navbar.dropdownTitle}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#">
+              <NavDropdown.Item className={navStyle.dropdown} href="bitcoin">
                 {strings.navbar.dropdown1}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#">
+              <NavDropdown.Item className={navStyle.dropdown} href="giftcard">
                 {strings.navbar.dropdown2}
               </NavDropdown.Item>
             </NavDropdown>
-            <Button className={navStyle.navBtn}>
+            <Button href="login" className={navStyle.navBtn}>
               {strings.buttons.navbarBtn}
             </Button>
           </Nav>

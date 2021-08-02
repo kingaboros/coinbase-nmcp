@@ -18,12 +18,23 @@
   color: $black;
   margin-top: 1rem;
 }
+
+.dropdown:hover {
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  color: $white;
+}
 .navBtn {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   font-weight: bold;
   width: 9rem;
   margin-top: -0.3rem;
+  margin-left: 0.2rem;
   padding: 1rem;
   border: none;
   border-radius: 1.5rem;
+}
+
+.navBtn:focus {
+  outline: none;
+  box-shadow: none;
 }
