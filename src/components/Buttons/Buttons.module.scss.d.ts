@@ -512,6 +512,7 @@ export const h6: string;
 export const h75: string;
 export const hasValidation: string;
 export const hAuto: string;
+export const headerBtn: string;
 export const hide: string;
 export const imgFluid: string;
 export const imgThumbnail: string;

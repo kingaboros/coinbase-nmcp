@@ -1,9 +1,10 @@
 import React from 'react';
-
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import Buttons from '../Buttons/Buttons';
+import { Container, Row, Col } from 'react-bootstrap';
 import Waves from '../Dividers/Waves';
 
 import * as classes from './Header.module.scss';
+import * as btnStyle from '../Buttons/Buttons.module.scss';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
@@ -20,7 +21,11 @@ const Header = () => {
             </span>
           </h2>
           <p>{strings.descriptions.homeHeader}</p>
-          <Button>{strings.buttons.homeHeader}</Button>
+          <Buttons
+            url="start"
+            btnClass={btnStyle.headerBtn}
+            btnName={strings.buttons.homeHeader}
+          />
         </Col>
         <Col>
           <img
