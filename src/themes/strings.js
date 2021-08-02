@@ -10,10 +10,17 @@ const strings = {
   },
   buttons: {
     navbarBtn: 'Login',
+    homeHeader: 'Get Started',
   },
-  headings: {},
-  auth: {},
-  descriptions: {},
+  headings: {
+    home: 'We provide easy solution to exchange your ',
+    homeBold: 'Bitcoin/GiftCard for money',
+  },
+  paragraphs: {},
+  descriptions: {
+    homeHeader:
+      'CoinBase is a platform for trading your bitcoin and giftcard at the best rate, why not give us a trial.',
+  },
   filterLabels: {},
 };
 

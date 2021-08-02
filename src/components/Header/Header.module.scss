@@ -1,0 +1,31 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.headerWrapper {
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  color: $white;
+  max-width: 100%;
+  height: auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.heading {
+  font-weight: 300;
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+}
+
+.headingBold {
+  font-weight: 600;
+}
+
+.paragraphWrapper {
+  padding: 6rem;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  @extend .img-fluid;
+}

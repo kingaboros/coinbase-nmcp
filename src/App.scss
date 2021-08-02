@@ -1,14 +1,11 @@
 @import './themes/colors.scss';
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  background-color: $pageBackground;
 }
 
-.body {
-  padding: 0;
-}
-.container-fluid {
+.App {
+  margin: 0;
   padding: 0;
 }
