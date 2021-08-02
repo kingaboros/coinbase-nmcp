@@ -1,6 +1,8 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
+///////////////// Navbar Button \\\\\\\\\\\\\\\\\\\\\\\
+
 .navBtn {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   font-weight: bold;
@@ -48,3 +50,5 @@
   opacity: 1;
   transform: scale(1, 1);
 }
+
+//////////////// Home Header Button \\\\\\\\\\\\\\\\\\\\
