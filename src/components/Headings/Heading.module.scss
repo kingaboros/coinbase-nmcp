@@ -1,0 +1,13 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.gradientHeading {
+  position: relative;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
