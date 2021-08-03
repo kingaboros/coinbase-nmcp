@@ -15,9 +15,9 @@ const Header = () => {
       <Row>
         <Col className={classes.paragraphWrapper}>
           <h2 className={classes.heading}>
-            {strings.headings.home}
+            {strings.headings.header}
             <span className={classes.headingBold}>
-              {strings.headings.homeBold}
+              {strings.headings.headerBold}
             </span>
           </h2>
           <p>{strings.descriptions.homeHeader}</p>
