@@ -19,7 +19,7 @@ const Paragraphs = (props: any) => {
         <Col>
           <Heading headingTitle={props.heading} />
           <HorizontalLine />
-          <p className={classes.paragraph}>{props.paragraph}</p>
+          <p className={props.paragraphStyle}>{props.paragraph}</p>
           <Buttons
             url={props.url}
             btnClass={props.btnStyle}

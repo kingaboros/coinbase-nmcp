@@ -1190,6 +1190,7 @@ export const pagination: string;
 export const paginationLg: string;
 export const paginationSm: string;
 export const paragraph: string;
+export const paragraphReverse: string;
 export const paragraphWrapper: string;
 export const pb0: string;
 export const pb1: string;

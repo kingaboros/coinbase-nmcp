@@ -21,6 +21,18 @@ const Homepage = (props: any) => {
         alt="people waving"
         heading={strings.headings.welcome}
         paragraph={strings.paragraphs.homeWelcome}
+        paragraphStyle={paragraphStyle.paragraph}
+        url="discover"
+        btnStyle={btnStyle.navBtn}
+        btnName={strings.buttons.homeParagraph}
+      />
+      <Paragraphs
+        img={images.home.stars}
+        imgStyle={paragraphStyle.img}
+        alt="person with laptop"
+        heading={strings.headings.experience}
+        paragraph={strings.paragraphs.homeExperience}
+        paragraphStyle={paragraphStyle.paragraphReverse}
         url="discover"
         btnStyle={btnStyle.navBtn}
         btnName={strings.buttons.homeParagraph}

@@ -14,8 +14,20 @@
   line-height: 2.2rem;
   color: $paragraphColor;
   text-align: justify;
+  @extend .flex-row;
+  @extend .d-flex;
 }
 
 .img {
   max-width: auto;
+}
+
+.paragraphReverse {
+  padding: 2rem 0 1rem;
+  font-size: 1rem;
+  line-height: 2.2rem;
+  color: $paragraphColor;
+  text-align: justify;
+  @extend .d-flex;
+  @extend .flex-row-reverse;
 }
