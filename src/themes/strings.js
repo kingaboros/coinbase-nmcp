@@ -12,6 +12,7 @@ const strings = {
     navbarBtn: 'Login',
     homeHeader: 'Get Started',
     homeParagraph: 'Discover',
+    ratesBtn: '8 hours ago',
   },
   headings: {
     header: 'We provide easy solution to exchange your ',
@@ -29,7 +30,37 @@ const strings = {
     homeHeader:
       'CoinBase is a platform for trading your bitcoin and giftcard at the best rate, why not give us a trial.',
   },
-  filterLabels: {},
+  ratesTable: {
+    ratesHeadings: {
+      rates: 'Our Rates',
+      reserves: 'Our Reserves',
+      exchanges: 'Latest Exchanges',
+    },
+    ratesColumn: {
+      btcBuy: 'We Buy @ ₦350/$',
+      btcSell: 'We Sell @ ₦370/$',
+      ethBuy: 'We Buy @ ₦345/$',
+      ethSell: 'We Sell @ ₦370/$',
+    },
+    reservesColumn: {
+      bt: 'Bank Transfer',
+      ngn: 'NGN',
+      price: '#3452030300303.24/$',
+      btc: 'Bitcoin',
+      btcPrice: '399.98 BTC',
+      eth: 'Ethereum',
+      ethPrice: '1000.00 ETH',
+    },
+    exchangeColumn: {
+      btcFull: 'Bitcoin BTC',
+      bt: 'Bank Transfer NGN',
+      btcPrice: '1.16',
+      btc: 'BTC',
+      ngnPrice: '696152299929.23',
+      ngn: 'NGN',
+      amazonCard: 'Amazon Card',
+    },
+  },
 };
 
 export default strings;
