@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Header from '../components/Header/Header';
 
 import Paragraphs from '../components/Paragraphs/Paragraphs';
+import Paragraph from '../components/Paragraphs/Paragraph';
 
 import * as btnStyle from '../components/Buttons/Buttons.module.scss';
 import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss';
@@ -15,10 +16,12 @@ const Homepage = (props: any) => {
     <div>
       <Navbar />
       <Header />
-      <Paragraphs
+      <Paragraph
+        paragraphClass={paragraphStyle.row}
         img={images.people}
         imgStyle={paragraphStyle.img}
         alt="people waving"
+        descriptionStyle={paragraphStyle.paragraph}
         heading={strings.headings.welcome}
         paragraph={strings.paragraphs.homeWelcome}
         paragraphStyle={paragraphStyle.paragraph}
@@ -26,9 +29,11 @@ const Homepage = (props: any) => {
         btnStyle={btnStyle.navBtn}
         btnName={strings.buttons.homeParagraph}
       />
-      <Paragraphs
+      <Paragraph
+        paragraphClass={paragraphStyle.paragraphReverse}
         img={images.home.stars}
         imgStyle={paragraphStyle.img}
+        descriptionStyle={paragraphStyle.paragraphTextReverse}
         alt="person with laptop"
         heading={strings.headings.experience}
         paragraph={strings.paragraphs.homeExperience}
