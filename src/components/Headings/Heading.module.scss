@@ -11,3 +11,16 @@
   font-size: 2rem;
   line-height: 2.5rem;
 }
+
+.ratesHeading {
+  position: relative;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  padding: 0.7rem;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.ratesCard {
+  border-radius: 2rem;
+}
+
+.cardHeader {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.ratesHeaderRow {
+  margin: 0;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.125);
+}

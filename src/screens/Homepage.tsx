@@ -3,8 +3,10 @@ import Navbar from '../Navbar/Navbar';
 import Header from '../components/Header/Header';
 
 import Paragraphs from '../components/Paragraphs/Paragraphs';
+import RatesTable from '../components/RatesTable/RatesTable';
 
 import * as btnStyle from '../components/Buttons/Buttons.module.scss';
+
 import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss';
 
 import strings from '../themes/strings';
@@ -28,6 +30,7 @@ const Homepage = (props: any) => {
         btnStyle={btnStyle.navBtn}
         btnName={strings.buttons.homeParagraph}
       />
+      <RatesTable />
       <Paragraphs
         paragraphClass={paragraphStyle.paragraphReverse}
         img={images.home.stars}

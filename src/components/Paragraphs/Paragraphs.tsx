@@ -4,6 +4,7 @@ import Buttons from '../Buttons/Buttons';
 import HorizontalLine from '../Dividers/HorizontalLine';
 import Heading from '../Headings/Heading';
 
+import * as headingStyle from '../Headings/Heading.module.scss';
 import * as classes from './Paragraphs.module.scss';
 
 const Paragraph = (props: any) => {
@@ -15,7 +16,10 @@ const Paragraph = (props: any) => {
         </div>
 
         <div className={props.descriptionStyle}>
-          <Heading headingTitle={props.heading} />
+          <Heading
+            headingTitle={props.heading}
+            headingStyle={headingStyle.gradientHeading}
+          />
           <HorizontalLine />
           <p className={props.paragraphStyle}>{props.paragraph}</p>
           <Buttons
