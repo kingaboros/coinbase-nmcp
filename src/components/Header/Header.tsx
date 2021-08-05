@@ -1,7 +1,8 @@
 import React from 'react';
 import Buttons from '../Buttons/Buttons';
-import { Container, Row, Col } from 'react-bootstrap';
 import Waves from '../Dividers/Waves';
+
+import { Container, Row, Col } from 'react-bootstrap';
 
 import * as classes from './Header.module.scss';
 import * as btnStyle from '../Buttons/Buttons.module.scss';

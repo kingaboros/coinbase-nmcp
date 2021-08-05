@@ -1,22 +1,20 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 
 import Buttons from '../Buttons/Buttons';
 import HorizontalLine from '../Dividers/HorizontalLine';
 import Heading from '../Headings/Heading';
 
-import strings from '../../themes/strings';
-
 import * as classes from './Paragraphs.module.scss';
 
-const Paragraphs = (props: any) => {
+const Paragraph = (props: any) => {
   return (
-    <Container className={classes.paragraphWrapper}>
-      <Row>
-        <Col>
+    <div className={classes.paragraphWrapper}>
+      <div className={props.paragraphClass}>
+        <div className={classes.imgCol}>
           <img src={props.img} alt={props.alt} className={props.imgStyle} />
-        </Col>
-        <Col>
+        </div>
+
+        <div className={props.descriptionStyle}>
           <Heading headingTitle={props.heading} />
           <HorizontalLine />
           <p className={props.paragraphStyle}>{props.paragraph}</p>
@@ -25,10 +23,10 @@ const Paragraphs = (props: any) => {
             btnClass={props.btnStyle}
             btnName={props.btnName}
           />
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default Paragraphs;
+export default Paragraph;
