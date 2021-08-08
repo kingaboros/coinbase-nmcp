@@ -1,14 +1,12 @@
-* {
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .wrapper {
   margin: 0 auto;
-  width: 1500px;
+  width: 1300px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 415px) {
   .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -18,13 +16,13 @@
 @media only screen and (min-width: 768px) {
   .wrapper {
     margin: 0 auto;
-    width: 100%;
+    width: auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .wrapper {
     margin: 0 auto;
-    width: 100vw;
+    width: 1000px;
   }
 }

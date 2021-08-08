@@ -9,8 +9,8 @@ import * as btnStyle from '../components/Buttons/Buttons.module.scss';
 
 const NavBar = () => {
   return (
-    <Navbar className={navStyle.navbarWrapper}>
-      <Container>
+    <Container>
+      <Navbar className={navStyle.navbarWrapper}>
         <Navbar.Brand href="/" className={navStyle.logo}>
           <img src={images.logo} alt="coinbase logo" />
         </Navbar.Brand>
@@ -48,8 +48,8 @@ const NavBar = () => {
             />
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 };
 
