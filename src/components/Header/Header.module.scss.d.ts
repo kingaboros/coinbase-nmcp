@@ -1551,3 +1551,4 @@ export const w50: string;
 export const w75: string;
 export const wasValidated: string;
 export const wAuto: string;
+export const wrapper: string;

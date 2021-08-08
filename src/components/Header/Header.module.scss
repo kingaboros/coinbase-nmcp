@@ -5,7 +5,7 @@
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   color: $white;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 2rem;
   position: relative;
 }
@@ -27,5 +27,28 @@
 .img {
   max-width: 100%;
   height: auto;
-  @extend .img-fluid;
+}
+
+@media screen and (min-width: 425px) {
+  .headerWrapper {
+    width: 100%;
+  }
+  .img {
+    height: auto;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 100vw;
+  }
 }
