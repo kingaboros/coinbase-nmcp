@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Header from '../components/Header/Header';
-import Wrapper from '../components/Wrapper/Wrapper';
 
 import Paragraphs from '../components/Paragraphs/Paragraphs';
 import RatesTable from '../components/RatesTable/RatesTable';

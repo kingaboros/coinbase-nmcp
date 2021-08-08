@@ -1,12 +1,6 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.ratesCard {
-  border-radius: 2rem;
-  width: 90rem;
-  margin-left: -9rem;
-}
-
 .ratesHeaderRow {
   margin: 0;
   padding: 0.4rem;
@@ -69,4 +63,26 @@ td {
   margin-bottom: 0.5rem;
   width: 20rem;
   margin-right: -15rem;
+}
+
+@media screen and (min-width: 425px) {
+  .ratesCard {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ratesCard {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ratesCard {
+    border-radius: 2rem;
+    width: 90rem;
+    margin-left: -9rem;
+  }
 }
