@@ -3,14 +3,70 @@
 
 .ratesCard {
   border-radius: 2rem;
-}
-
-.cardHeader {
-  background-color: transparent;
-  border-bottom: none;
+  width: 90rem;
+  margin-left: -9rem;
 }
 
 .ratesHeaderRow {
   margin: 0;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.125);
+  padding: 0.4rem;
+  border-bottom: 0.1rem solid $borderRates;
+  background-color: transparent;
+}
+
+.tableColumn,
+.ratesTableColumn {
+  padding: 3rem 0.1rem 3rem 0.1rem;
+}
+
+.ratesTableColumn {
+  margin-left: 5rem;
+}
+td {
+  padding-bottom: 1.5rem;
+}
+
+.tableIcons,
+.exchangeIcons {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exchangeIcons {
+  padding-right: 0;
+}
+
+.tableIcons:before {
+  display: initial;
+}
+
+.tableText,
+.tableTextRight,
+.tableTextExhange {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: $paragraphColor;
+  padding-right: 1rem;
+}
+
+.tableTextRight {
+  text-align: right;
+}
+
+.tableTextExhange {
+  padding-right: 0.1;
+}
+
+.columnDivider {
+  border-top-style: solid;
+  border-width: 0.13rem;
+  border-color: $borderRates;
+  margin-bottom: 0.5rem;
+  width: 20rem;
+  margin-right: -15rem;
 }

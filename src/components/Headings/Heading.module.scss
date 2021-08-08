@@ -12,7 +12,8 @@
   line-height: 2.5rem;
 }
 
-.ratesHeading {
+.ratesHeading,
+.ratesHeadingTitle {
   position: relative;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   background-clip: text;
@@ -23,4 +24,8 @@
   line-height: 2rem;
   padding: 0.7rem;
   text-align: center;
+}
+
+.ratesHeadingTitle {
+  text-align: left;
 }
