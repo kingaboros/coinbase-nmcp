@@ -354,6 +354,7 @@ export const dropdown: string;
 export const dropdownDivider: string;
 export const dropdownHeader: string;
 export const dropdownItem: string;
+export const dropdownItem: string;
 export const dropdownItemText: string;
 export const dropdownMenu: string;
 export const dropdownMenuLeft: string;

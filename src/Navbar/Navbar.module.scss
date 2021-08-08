@@ -3,7 +3,7 @@
 
 .navbarWrapper {
   padding: 1.5rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -22,6 +22,11 @@
   margin-top: 1rem;
 }
 
+.navLinkItem {
+  font-size: 1rem;
+  @extend .text-dark;
+}
+
 .navLinkItem:hover {
   border-bottom-style: solid;
   border-width: 0.2rem;
@@ -30,12 +35,12 @@
   transition: 0.3s;
 }
 
-.dropdown {
+.dropdownItem {
   padding: 0.7rem;
 }
 
-.dropdown:hover {
+.dropdownItem:hover {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
-  color: $white;
   transition: all 0.5s ease;
+  @extend .text-white;
 }
