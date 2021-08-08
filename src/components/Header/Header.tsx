@@ -21,7 +21,9 @@ const Header = () => {
               {strings.headings.headerBold}
             </span>
           </h2>
-          <p>{strings.descriptions.homeHeader}</p>
+          <p className={classes.description}>
+            {strings.descriptions.homeHeader}
+          </p>
           <Buttons
             url="start"
             btnClass={btnStyle.headerButton}
