@@ -24,7 +24,7 @@ const Header = () => {
           <p>{strings.descriptions.homeHeader}</p>
           <Buttons
             url="start"
-            btnClass={btnStyle.headerBtn}
+            btnClass={btnStyle.headerButton}
             btnName={strings.buttons.homeHeader}
           />
         </Col>

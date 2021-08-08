@@ -4,7 +4,8 @@
 ///////////////// Navbar Button \\\\\\\\\\\\\\\\\\\\\\\
 
 .navBtn,
-.ratesBtn {
+.ratesBtn,
+.headerButton {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   font-weight: 600;
   width: 9rem;
@@ -69,37 +70,46 @@
 
 //////////////// Home Header Button \\\\\\\\\\\\\\\\\\\\
 
-.headerBtn {
-  position: relative;
-  background: -webkit-linear-gradient($gradient1, $gradient2);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+// .headerBtn {
+//   position: relative;
+//   color: $gradient1;
+//   background: -webkit-linear-gradient($gradient1, $gradient2);
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   font-weight: bold;
+//   width: 10rem;
+//   margin-top: -0.3rem;
+//   margin-left: 0.2rem;
+//   padding: 1rem;
+//   border: none;
+//   outline: none;
+//   text-transform: uppercase;
+//   transition: all 0.5s;
+//   text-align: center;
+// }
+
+// .headerBtn:after {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: $white;
+//   z-index: -1;
+//   border-radius: 1.7rem;
+// }
+
+.headerButton {
+  background: $white;
   width: 10rem;
-  margin-top: -0.3rem;
-  margin-left: 0.2rem;
-  padding: 1rem;
-  border: none;
-  outline: none;
-
-  text-transform: uppercase;
-  transition: all 0.5s;
-  text-align: center;
+  color: $gradient1;
 }
 
-.headerBtn:hover {
-  background-color: $white;
-}
-
-.headerBtn:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: auto;
-  border-radius: 1.7rem;
+.headerButton:hover {
+  background: linear-gradient(159.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
 }

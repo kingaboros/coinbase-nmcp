@@ -10,9 +10,9 @@ const strings = {
   },
   buttons: {
     navbarBtn: 'Login',
-    homeHeader: 'Get Started',
     homeParagraph: 'Discover',
     ratesBtn: '8 hours ago',
+    homeHeader: 'Get Started',
   },
   headings: {
     header: 'We provide easy solution to exchange your ',
