@@ -20,13 +20,14 @@
   font-weight: 600;
 }
 
-.paragraphWrapper {
-  padding: 6rem;
+.description {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 425px) {
@@ -34,21 +35,54 @@
     width: 100%;
   }
   .img {
+    margin-top: -2rem;
     height: auto;
-    max-width: 500px;
+    width: 500px;
+  }
+  .paragraphWrapper {
+    margin: 4rem auto;
+    padding: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .wrapper {
-    margin: 0 auto;
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
-  .wrapper {
-    margin: 0 auto;
+  .headerWrapper {
     width: 100vw;
+  }
+  .img {
+    margin: 3rem auto;
+    height: 100%;
+    width: 100%;
+  }
+  .paragraphWrapper {
+    margin: 5rem 0 2rem 8rem;
+    padding: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .headerWrapper {
+    width: 100vw;
+  }
+
+  .heading {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .description {
+    font-size: 2.5rem;
+  }
+  .img {
+    margin: 3rem auto;
+    height: 100%;
+    width: 100%;
+  }
+  .paragraphWrapper {
+    margin: 5rem 0 2rem 8rem;
+    padding: 5rem;
   }
 }
