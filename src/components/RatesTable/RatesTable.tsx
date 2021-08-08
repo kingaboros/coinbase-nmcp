@@ -10,8 +10,8 @@ import * as classes from './RatesTable.module.scss';
 
 const RatesCard = () => {
   return (
-    <Container>
-      <Card className={classes.ratesCard}>
+    <Container className={classes.ratesCard}>
+      <Card>
         <Card.Header className={classes.ratesHeaderRow}>
           <RatesHeader />
         </Card.Header>

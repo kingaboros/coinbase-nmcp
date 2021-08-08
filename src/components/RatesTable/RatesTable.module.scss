@@ -1,6 +1,10 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
+.ratesCard {
+  margin-top: 10rem;
+  width: auto;
+}
 .ratesHeaderRow {
   margin: 0;
   padding: 0.4rem;
@@ -68,7 +72,7 @@ td {
 @media screen and (min-width: 425px) {
   .ratesCard {
     margin: 0 auto;
-    width: 100%;
+    width: auto;
   }
 }
 
