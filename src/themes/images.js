@@ -36,6 +36,9 @@ const images = {
     transfer: require('../imgs/icons/transfer.png').default,
     doubleTransfer: require('../imgs/icons/double-transfer.png').default,
   },
+  dividers: {
+    wave: require('../imgs/wave.png').default,
+  },
 };
 
 export default images;

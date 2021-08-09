@@ -1547,4 +1547,3 @@ export const w75: string;
 export const wasValidated: string;
 export const wAuto: string;
 export const wave: string;
-export const wavesWrapper: string;
