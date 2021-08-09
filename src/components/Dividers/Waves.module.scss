@@ -1,34 +1,15 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.wavesWrapper {
+.waves {
   position: relative;
-}
-
-.custom-shape-divider-bottom-1628490644 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
+  height: 200px;
 }
 
-.custom-shape-divider-bottom-1628490644 svg {
-  position: relative;
-  display: block;
-  width: calc(108% + 1.3px);
-  height: 180px;
-}
-
-.custom-shape-divider-bottom-1628490644 .shape-fill {
-  color: $white;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-bottom-1628490644 svg {
-    width: calc(116% + 1.3px);
-    height: 154px;
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
   }
 }
