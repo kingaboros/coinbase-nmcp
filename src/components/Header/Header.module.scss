@@ -33,10 +33,11 @@
 @media screen and (min-width: 425px) {
   .headerWrapper {
     width: 100%;
+    height: auto;
   }
   .img {
-    margin-top: -2rem;
-    height: auto;
+    margin-top: -3rem;
+    height: 100%;
     width: 500px;
   }
   .paragraphWrapper {
@@ -53,17 +54,21 @@
     width: 100vw;
   }
   .img {
-    margin: 3rem auto;
-    height: 100%;
+    margin: 2rem auto;
+    height: auto;
     width: 100%;
   }
+  .heading {
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+  }
   .paragraphWrapper {
-    margin: 5rem 0 2rem 8rem;
+    margin: 2rem 0 2rem 4rem;
     padding: 5rem;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1600px) {
   .headerWrapper {
     width: 100vw;
   }

@@ -11,13 +11,14 @@
 .tableColumn,
 .ratesTableColumn {
   padding: 3rem 0.1rem 3rem 0.1rem;
+  overflow-wrap: break-word;
 }
 
 .ratesTableColumn {
   margin-left: 5rem;
 }
 td {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .tableIcons,
@@ -46,6 +47,7 @@ td {
   font-weight: 400;
   color: $paragraphColor;
   padding-right: 1rem;
+  overflow-wrap: break-word;
 }
 
 .tableTextRight {
@@ -82,7 +84,7 @@ td {
 @media only screen and (min-width: 1024px) {
   .ratesCard {
     border-radius: 2rem;
-    width: 90rem;
-    margin-left: -9rem;
+    width: 80rem;
+    margin-left: -5rem;
   }
 }
