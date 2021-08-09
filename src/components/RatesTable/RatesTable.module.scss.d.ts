@@ -1412,6 +1412,7 @@ export const pyXl5: string;
 export const ratesCard: string;
 export const ratesHeaderRow: string;
 export const ratesTableColumn: string;
+export const ratesTableContainer: string;
 export const rounded: string;
 export const rounded0: string;
 export const roundedBottom: string;

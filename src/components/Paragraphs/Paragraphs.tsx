@@ -9,24 +9,26 @@ import * as classes from './Paragraphs.module.scss';
 
 const Paragraph = (props: any) => {
   return (
-    <div className={classes.paragraphWrapper}>
-      <div className={props.paragraphClass}>
-        <div className={classes.imgCol}>
-          <img src={props.img} alt={props.alt} className={props.imgStyle} />
-        </div>
+    <div>
+      <div className={classes.paragraphWrapper}>
+        <div className={props.paragraphClass}>
+          <div className={classes.imgCol}>
+            <img src={props.img} alt={props.alt} className={props.imgStyle} />
+          </div>
 
-        <div className={props.descriptionStyle}>
-          <Heading
-            headingTitle={props.heading}
-            headingStyle={headingStyle.gradientHeading}
-          />
-          <HorizontalLine />
-          <p className={props.paragraphStyle}>{props.paragraph}</p>
-          <Buttons
-            url={props.url}
-            btnClass={props.btnStyle}
-            btnName={props.btnName}
-          />
+          <div className={props.descriptionStyle}>
+            <Heading
+              headingTitle={props.heading}
+              headingStyle={headingStyle.gradientHeading}
+            />
+            <HorizontalLine />
+            <p className={props.paragraphStyle}>{props.paragraph}</p>
+            <Buttons
+              url={props.url}
+              btnClass={props.btnStyle}
+              btnName={props.btnName}
+            />
+          </div>
         </div>
       </div>
     </div>

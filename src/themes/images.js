@@ -29,16 +29,6 @@ const images = {
     others: require('../imgs/cards/others.png').default,
     steam: require('../imgs/cards/steam.png').default,
   },
-  icons: {
-    bitcoin: require('../imgs/icons/bitcoin.png').default,
-    eth: require('../imgs/icons/eth.svg').default,
-    bank: require('../imgs/icons/bank-building.svg').default,
-    transfer: require('../imgs/icons/transfer.png').default,
-    doubleTransfer: require('../imgs/icons/double-transfer.png').default,
-  },
-  dividers: {
-    wave: require('../imgs/wave.png').default,
-  },
 };
 
 export default images;

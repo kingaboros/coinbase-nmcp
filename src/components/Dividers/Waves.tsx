@@ -1,31 +1,26 @@
 import React from 'react';
 
-import * as classes from './Waves.module.scss';
-
-const Waves = () => {
+const WavesTop = (props: any) => {
   return (
-    <div>
+    <div className={props.wavesClass}>
       <svg
-        className={classes.waves}
+        viewBox="0 0 1366 200"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28"
-        preserveAspectRatio="none"
-        shape-rendering="auto"
       >
-        <defs>
-          <path
-            id="gentle-wave"
-            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-          />
-        </defs>
-
-        <g className="parallax">
-          <use xlinkHref="#gentle-wave" x="-35" y="5" fill="#fff" />
-        </g>
+        <path
+          fill="#fff"
+          d="M 0 28 C 208.2 28 485.8 110 694 110 L 694 110 L 694 0 L 0 0 Z"
+          stroke-width="0"
+        ></path>
+        <path
+          fill="#fff"
+          d="M 693 110 C 894.9 110 1164.1 10 1366 10 L 1366 10 L 1366 0 L 693 0 Z"
+          stroke-width="0"
+        ></path>
       </svg>
     </div>
   );
 };
 
-export default Waves;
+export default WavesTop;

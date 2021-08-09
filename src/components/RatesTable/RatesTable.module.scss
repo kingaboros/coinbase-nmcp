@@ -1,6 +1,15 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
+.ratesTableContainer {
+  height: auto;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  margin-top: 1rem;
+}
+
+.ratesCard {
+  background: $white;
+}
 .ratesHeaderRow {
   margin: 0;
   padding: 0.4rem;

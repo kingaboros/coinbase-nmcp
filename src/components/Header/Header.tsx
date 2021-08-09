@@ -1,11 +1,12 @@
 import React from 'react';
 import Buttons from '../Buttons/Buttons';
-import Waves from '../Dividers/Waves';
+import WavesBottom from '../Dividers/WavesBottom';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
 import * as classes from './Header.module.scss';
 import * as btnStyle from '../Buttons/Buttons.module.scss';
+import * as wavesClass from '../Dividers/Waves.module.scss';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
@@ -38,7 +39,7 @@ const Header = () => {
           />
         </Col>
       </Row>
-      <Waves />
+      <WavesBottom wavesStyle={wavesClass.wavesBottom} />
     </Container>
   );
 };

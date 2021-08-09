@@ -31,6 +31,7 @@ const Homepage = (props: any) => {
         btnName={strings.buttons.homeParagraph}
       />
       <RatesTable />
+
       <Paragraphs
         paragraphClass={paragraphStyle.paragraphReverse}
         img={images.home.stars}

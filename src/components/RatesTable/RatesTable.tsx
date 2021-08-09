@@ -1,36 +1,43 @@
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 import RatesHeader from './RatesHeader';
+import WavesBottom from '../Dividers/WavesBottom';
 
+import WavesTop from '../Dividers/Waves';
 import RatesColumn from './RatesColumn';
 import RatesReservesColumn from './RatesReservesColumn';
 import RatesExchangesColumn from './RatesExchangesColumn';
 
 import * as classes from './RatesTable.module.scss';
+import * as wavesClass from '../Dividers/Waves.module.scss';
 
-const RatesCard = () => {
+const RatesTable = () => {
   return (
-    <Container>
-      <Card className={classes.ratesCard}>
-        <Card.Header className={classes.ratesHeaderRow}>
-          <RatesHeader />
-        </Card.Header>
-        <Card.Body>
-          <Row>
-            <Col>
-              <RatesColumn />
-            </Col>
-            <Col>
-              <RatesReservesColumn />
-            </Col>
-            <Col>
-              <RatesExchangesColumn />
-            </Col>
-          </Row>
-        </Card.Body>
-      </Card>
-    </Container>
+    <div className={classes.ratesTableContainer}>
+      <WavesTop wavesStyle={wavesClass.ratesWavesTop} />
+      <Container>
+        <Card className={classes.ratesCard}>
+          <Card.Header className={classes.ratesHeaderRow}>
+            <RatesHeader />
+          </Card.Header>
+          <Card.Body>
+            <Row>
+              <Col>
+                <RatesColumn />
+              </Col>
+              <Col>
+                <RatesReservesColumn />
+              </Col>
+              <Col>
+                <RatesExchangesColumn />
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+      </Container>
+      <WavesBottom wavesStyle={wavesClass.ratesBottom} />
+    </div>
   );
 };
 
-export default RatesCard;
+export default RatesTable;
