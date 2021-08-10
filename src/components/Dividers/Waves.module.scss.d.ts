@@ -1535,6 +1535,7 @@ export const toastBody: string;
 export const toastHeader: string;
 export const tooltip: string;
 export const tooltipInner: string;
+export const tradeBottom: string;
 export const userSelectAll: string;
 export const userSelectAuto: string;
 export const userSelectNone: string;

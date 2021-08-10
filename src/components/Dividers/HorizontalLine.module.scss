@@ -1,11 +1,16 @@
 @import '../../themes/colors.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.line {
+.line,
+.lineCenter {
   border-top-style: solid;
   border-width: 0.4rem;
   border-color: $gradient1;
   max-width: 3rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
+}
+
+.lineCenter {
+  margin: 0 auto;
 }

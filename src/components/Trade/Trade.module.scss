@@ -1,0 +1,75 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.tradeBackground {
+  position: relative;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  height: 30.5rem;
+  padding: 7.5rem;
+  width: 100vw;
+  z-index: -2;
+}
+.tradeContainer {
+  padding: 10rem;
+  border-radius: 1.8rem;
+  box-shadow: 0px 50px 100px $boxShadow;
+  background: $white;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+.iconsCard {
+  margin-top: 5rem;
+  margin-right: 0;
+  width: 16rem;
+  height: 14rem;
+  border-top: 0.1rem solid $gradient1;
+  border-bottom: 0.1rem solid $gradient2;
+  background-image: linear-gradient($gradient1, $gradient2),
+    linear-gradient($gradient1, $gradient2);
+  background-size: 0.1rem 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  border-radius: 0.9rem;
+}
+
+.btcIcon,
+.cardIcon {
+  display: block;
+  margin: 2.5rem auto;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.cardIcon {
+  margin-top: 4rem;
+  width: 4.3rem;
+  height: 2.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: center;
+  color: $paragraphColor;
+}
+
+@media screen and (min-width: 425px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .tradeContainer {
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .tradeContainer {
+    height: 55vh;
+  }
+}

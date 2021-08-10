@@ -29,6 +29,10 @@ const images = {
     others: require('../imgs/cards/others.png').default,
     steam: require('../imgs/cards/steam.png').default,
   },
+  icons: {
+    bitcoin: require('../imgs/icons/bitcoin.png').default,
+    giftCard: require('../imgs/icons/giftcard.png').default,
+  },
 };
 
 export default images;

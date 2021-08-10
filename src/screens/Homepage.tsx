@@ -11,6 +11,7 @@ import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss
 
 import strings from '../themes/strings';
 import images from '../themes/images';
+import Trade from '../components/Trade/Trade';
 
 const Homepage = (props: any) => {
   return (
@@ -31,7 +32,6 @@ const Homepage = (props: any) => {
         btnName={strings.buttons.homeParagraph}
       />
       <RatesTable />
-
       <Paragraphs
         paragraphClass={paragraphStyle.paragraphReverse}
         img={images.home.stars}
@@ -45,6 +45,7 @@ const Homepage = (props: any) => {
         btnStyle={btnStyle.navBtn}
         btnName={strings.buttons.homeParagraph}
       />
+      <Trade />
     </div>
   );
 };

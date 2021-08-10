@@ -2,7 +2,8 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .wavesBottom,
-.ratesWavesBottom {
+.ratesWavesBottom,
+.tradeBottom {
   position: relative;
   width: 100%;
   height: 250px;
@@ -21,7 +22,8 @@
 }
 
 .ratesWavesTop,
-.ratesBottom {
+.ratesBottom,
+.tradeBottom {
   display: block;
   position: relative;
   top: -0.2rem;
@@ -37,9 +39,17 @@
   width: 100%;
 }
 
+.tradeBottom {
+  width: 100vw;
+  left: -8rem;
+  top: -21rem;
+  z-index: -1;
+}
+
 @media (max-width: 1365px) {
   .ratesWavesTop,
-  .ratesBottom {
+  .ratesBottom,
+  .tradeBottom {
     background-size: contain;
   }
 }

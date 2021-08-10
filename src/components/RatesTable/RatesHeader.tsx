@@ -4,7 +4,6 @@ import Heading from '../Headings/Heading';
 
 import strings from '../../themes/strings';
 
-import * as classes from './RatesTable.module.scss';
 import * as headingStyle from '../Headings/Heading.module.scss';
 
 const RatesHeader = () => {

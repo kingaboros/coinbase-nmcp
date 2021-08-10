@@ -3,7 +3,8 @@
 
 .gradientHeading,
 .ratesHeading,
-.ratesHeadingTitle {
+.ratesHeadingTitle,
+.tradeHeading {
   position: relative;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   background-clip: text;
@@ -24,4 +25,11 @@
 
 .ratesHeadingTitle {
   text-align: left;
+}
+
+.tradeHeading {
+  margin-top: -4.6rem;
+  font-size: 1.75rem;
+  line-height: 2.6rem;
+  text-align: center;
 }

@@ -3,8 +3,8 @@ import { classicNameResolver } from 'typescript';
 
 import * as classes from './HorizontalLine.module.scss';
 
-const HorizontalLine = () => {
-  return <div className={classes.line}></div>;
+const HorizontalLine = (props: any) => {
+  return <div className={props.lineStyle}></div>;
 };
 
 export default HorizontalLine;

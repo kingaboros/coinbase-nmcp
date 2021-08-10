@@ -556,6 +556,7 @@ export const justifyContentXlEnd: string;
 export const justifyContentXlStart: string;
 export const lead: string;
 export const line: string;
+export const lineCenter: string;
 export const listGroup: string;
 export const listGroupFlush: string;
 export const listGroupHorizontal: string;

@@ -19,6 +19,7 @@ const strings = {
     headerBold: 'Bitcoin/GiftCard for money',
     welcome: 'Welcome to CoinBase',
     experience: 'Great experience with CoinBase',
+    trade: 'Trade from anywhere',
   },
   paragraphs: {
     homeWelcome:
@@ -67,6 +68,10 @@ const strings = {
       eth: 'ETH',
       ngn: 'NGN',
     },
+  },
+  trade: {
+    btc: 'Bitcoin',
+    card: 'Gift Cards',
   },
 };
 
