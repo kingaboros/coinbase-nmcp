@@ -1,0 +1,18 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.blogCardSection {
+  margin-top: 20rem;
+  height: 100vw;
+}
+
+.gradientBorder {
+  border-top: 0.1rem solid $gradient1;
+  border-bottom: 0.1rem solid $gradient2;
+  background-image: linear-gradient($gradient1, $gradient2),
+    linear-gradient($gradient1, $gradient2);
+  background-size: 0.1rem 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  border-radius: 0.9rem;
+}

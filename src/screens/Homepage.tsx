@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 
 import Paragraphs from '../components/Paragraphs/Paragraphs';
 import RatesTable from '../components/RatesTable/RatesTable';
+import BlogSection from '../components/BlogSection/BlogSection';
 
 import * as btnStyle from '../components/Buttons/Buttons.module.scss';
 
@@ -46,6 +47,7 @@ const Homepage = (props: any) => {
         btnName={strings.buttons.homeParagraph}
       />
       <Trade />
+      <BlogSection />
     </div>
   );
 };
