@@ -69,20 +69,29 @@
 
 @media only screen and (min-width: 1024px) {
   .paragraphWrapper {
-    margin: 0 -8rem 0 5rem;
+    margin: 0 -8rem 0 1rem;
   }
   .imgCol {
     margin-left: -6rem;
+    margin-right: 3rem;
   }
+
   .paragraphReverse {
     margin-left: 0;
+    padding: 0;
     width: auto;
   }
 
   .paragraphTextReverse {
-    margin: 4rem 0 0 -7rem;
+    margin: 4rem 0 0 -3rem;
   }
 }
 
 @media only screen and (min-width: 1600px) {
+  .paragraphReverse {
+    width: auto;
+  }
+  .imgCol {
+    padding-left: 8rem;
+  }
 }

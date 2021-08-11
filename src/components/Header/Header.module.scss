@@ -74,7 +74,8 @@
   }
 
   .heading {
-    font-size: 5rem;
+    margin-top: -2rem;
+    font-size: 4rem;
     line-height: 6rem;
   }
 
@@ -83,8 +84,9 @@
   }
   .img {
     margin: 3rem auto;
-    height: 100%;
+    height: auto;
     width: 100%;
+    margin-top: 6rem;
   }
   .paragraphWrapper {
     margin: 5rem 0 2rem 8rem;
