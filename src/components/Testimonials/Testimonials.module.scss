@@ -1,0 +1,84 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.background {
+  height: 1200px;
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  margin-top: 2rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  width: 33rem;
+  margin-top: 2.8rem;
+  color: $white;
+  text-align: center;
+  display: block;
+  margin: 2.8rem auto;
+}
+
+.reviewsCard {
+  width: 25rem;
+  height: 7.6rem;
+  border-radius: 1rem;
+  background-color: $reviewCard;
+}
+
+.textWrapper {
+  margin-top: -2.4rem;
+}
+
+.cardTriangle {
+  position: relative;
+  top: 3rem;
+  left: -1rem;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-right: 1rem solid $reviewCard;
+}
+
+.stars,
+.icons {
+  font-size: 0.8rem;
+  background: linear-gradient(181.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -2rem;
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  top: -2rem;
+  left: 21rem;
+}
+
+.reviewName,
+.reviewTitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 4rem;
+  text-align: left;
+  color: $black;
+}
+
+.reviewComment,
+.reviewTitle {
+  margin-top: -2rem;
+  width: 26rem;
+  height: 2.2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.reviewComment {
+  color: $black;
+  font-weight: 400;
+}

@@ -3,7 +3,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 import RatesHeader from './RatesHeader';
 import WavesBottom from '../Dividers/WavesBottom';
 
-import WavesTop from '../Dividers/Waves';
+import Waves from '../Dividers/Waves';
 import RatesColumn from './RatesColumn';
 import RatesReservesColumn from './RatesReservesColumn';
 import RatesExchangesColumn from './RatesExchangesColumn';
@@ -14,7 +14,7 @@ import * as wavesClass from '../Dividers/Waves.module.scss';
 const RatesTable = () => {
   return (
     <div className={classes.ratesTableContainer}>
-      <WavesTop wavesStyle={wavesClass.ratesWavesTop} />
+      <Waves wavesStyle={wavesClass.ratesWavesTop} />
       <Container>
         <Card className={classes.ratesCard}>
           <Card.Header className={classes.ratesHeaderRow}>

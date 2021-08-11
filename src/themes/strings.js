@@ -86,6 +86,16 @@ const strings = {
       'Lorem ipsum dolor sit amet, magna habemus ius ad, qui minimum voluptaria in. Ad mei modus quodsi complectitur, postea...',
     button: 'Read more',
   },
+  testimonials: {
+    heading: '10,000 Satisfied clients around the world',
+    paragraph:
+      'Yeah! we’re proud with numbers. We’ve helped thousands of clients all around the world with our bespoke service. Hover ontop of them pic to view their testimonials.',
+    reviewCard: {
+      name: 'Femi from Nigeria',
+      title: 'Wonderful service',
+      comment: 'Good deal and very wonderful service thank you.',
+    },
+  },
 };
 
 export default strings;

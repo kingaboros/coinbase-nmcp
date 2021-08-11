@@ -5,14 +5,14 @@ import Header from '../components/Header/Header';
 import Paragraphs from '../components/Paragraphs/Paragraphs';
 import RatesTable from '../components/RatesTable/RatesTable';
 import BlogSection from '../components/BlogSection/BlogSection';
+import Trade from '../components/Trade/Trade';
+import Testimonials from '../components/Testimonials/Testimonials';
 
 import * as btnStyle from '../components/Buttons/Buttons.module.scss';
-
 import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss';
 
 import strings from '../themes/strings';
 import images from '../themes/images';
-import Trade from '../components/Trade/Trade';
 
 const Homepage = (props: any) => {
   return (
@@ -48,6 +48,7 @@ const Homepage = (props: any) => {
       />
       <Trade />
       <BlogSection />
+      <Testimonials />
     </div>
   );
 };
