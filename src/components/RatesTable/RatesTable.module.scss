@@ -8,7 +8,9 @@
 }
 
 .ratesCard {
+  border-radius: 2rem;
   background: $white;
+  box-shadow: 0px 50px 100px $ratesBoxShadow;
 }
 .ratesHeaderRow {
   margin: 0;
@@ -92,8 +94,20 @@ td {
 
 @media only screen and (min-width: 1024px) {
   .ratesCard {
-    border-radius: 2rem;
-    width: 80rem;
-    margin-left: -5rem;
+    width: 90vw;
+    margin-left: -4rem;
+  }
+  .ratesTableColumn {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .ratesCard {
+    width: 80vw;
+    margin-left: -12.5rem;
+  }
+  .ratesTableColumn {
+    margin-left: 6rem;
   }
 }
