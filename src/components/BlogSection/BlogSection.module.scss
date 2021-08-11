@@ -2,15 +2,39 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .blogCardSection {
-  margin-top: 20rem;
+  margin-top: 25rem;
   padding: 0;
+  width: auto;
 }
 
-.gradientBorder {
-  margin: 0 auto;
+.active {
+  position: relative;
+  z-index: 1;
+  top: -31rem;
+}
+
+.notActive {
+  position: relative;
+  z-index: -1;
+}
+
+.blogSectionDescription {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: 3.1rem;
+}
+
+.cardBackground,
+.greyBorder {
+  margin: 3.1rem auto;
   height: 22.3rem;
   width: 29rem;
-  align-items: center;
+  border-radius: 0.9rem;
+}
+
+.cardBackground {
+  background: $white;
   border-top: 0.1rem solid $gradient1;
   border-bottom: 0.1rem solid $gradient2;
   background-image: linear-gradient($gradient1, $gradient2),
@@ -18,7 +42,10 @@
   background-size: 0.1rem 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  border-radius: 0.9rem;
+}
+
+.greyBorder {
+  border: 0.1rem solid $notActive;
 }
 
 .date {
@@ -29,14 +56,20 @@
 }
 
 .date,
-.blogExcerp {
+.blogExcerp,
+.blogSectionDescription {
   color: $paragraphColor;
   font-weight: 400;
 }
 
-.blogExcerp {
+.blogExcerp,
+.notActiveExcerp {
   width: 22rem;
   font-size: 0.75rem;
   line-height: 1.75rem;
   padding: 0.9rem 0 0 3.6rem;
+}
+
+.notActiveExcerp {
+  color: $notActive;
 }

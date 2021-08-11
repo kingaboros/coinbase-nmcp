@@ -6,27 +6,24 @@ import Button from '../Buttons/Buttons';
 import strings from '../../themes/strings';
 
 import * as classes from './BlogSection.module.scss';
-import * as headingStyle from '../Headings/Heading.module.scss';
 import * as btnStyle from '../Buttons/Buttons.module.scss';
 
 const BlogCard = (props: any) => {
   return (
-    <div className={classes.blogCardSection}>
+    <div className={props.stateStyle}>
       <Container>
-        <div className={classes.gradientBorder}>
+        <div className={props.borderStyle}>
           <div>
-            <p className={classes.date}>{strings.blogSection.date}</p>
+            <p className={classes.date}>{props.date}</p>
             <Heading
-              headingStyle={headingStyle.blogHeading}
-              headingTitle={strings.blogSection.postHeading}
+              headingStyle={props.headingColor}
+              headingTitle={props.postTitle}
             />
-            <p className={classes.blogExcerp}>
-              {strings.blogSection.postExcerp}
-            </p>
+            <p className={props.excerpStyle}>{props.postExcerp}</p>
             <Button
-              btnClass={btnStyle.blogSectionBtn}
-              url="blog-post-url"
-              btnName={strings.blogSection.button}
+              btnClass={props.btnStyle}
+              url={props.url}
+              btnName={props.btnName}
             />
           </div>
         </div>

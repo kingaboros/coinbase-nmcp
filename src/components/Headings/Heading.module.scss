@@ -5,7 +5,8 @@
 .ratesHeading,
 .ratesHeadingTitle,
 .tradeHeading,
-.blogHeading {
+.blogHeading,
+.notActiveHeading {
   position: relative;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   background-clip: text;
@@ -14,6 +15,13 @@
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+}
+
+.notActiveHeading {
+  background: linear-gradient(178.18deg, $notActive -13.56%, $notActive 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ratesHeading,
@@ -35,7 +43,8 @@
   text-align: center;
 }
 
-.blogHeading {
+.blogHeading,
+.notActiveHeading {
   font-size: 1.5rem;
   line-height: 2.4rem;
   width: 19rem;

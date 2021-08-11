@@ -20,6 +20,7 @@ const strings = {
     welcome: 'Welcome to CoinBase',
     experience: 'Great experience with CoinBase',
     trade: 'Trade from anywhere',
+    blog: 'Our blog',
   },
   paragraphs: {
     homeWelcome:
@@ -30,6 +31,7 @@ const strings = {
   descriptions: {
     homeHeader:
       'CoinBase is a platform for trading your bitcoin and giftcard at the best rate, why not give us a trial.',
+    blogSection: 'Get to know the latest stuff via our blog post.',
   },
   ratesTable: {
     ratesHeadings: {
@@ -74,8 +76,12 @@ const strings = {
     card: 'Gift Cards',
   },
   blogSection: {
-    date: '19 June, 2019 | Business',
-    postHeading: 'ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER...',
+    date1: '19 June, 2019 | Business',
+    date2: '01 feb, 2019 | technology',
+    date3: '01 dec, 2019 | lifestyle',
+    postHeading1: 'ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER...',
+    postHeading2: 'HOW TO SELL YOUR ITUNES GIFTCARD WITH US .',
+    postHeading3: 'EXCHANGE 5 PRODUCTS & GET 1 FREE PRODUCT.',
     postExcerp:
       'Lorem ipsum dolor sit amet, magna habemus ius ad, qui minimum voluptaria in. Ad mei modus quodsi complectitur, postea...',
     button: 'Read more',

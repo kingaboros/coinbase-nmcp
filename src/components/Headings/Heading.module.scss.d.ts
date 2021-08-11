@@ -1043,6 +1043,7 @@ export const navLink: string;
 export const navPills: string;
 export const navTabs: string;
 export const noGutters: string;
+export const notActiveHeading: string;
 export const offset1: string;
 export const offset10: string;
 export const offset11: string;

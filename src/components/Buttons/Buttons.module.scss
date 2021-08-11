@@ -4,7 +4,8 @@
 .navBtn,
 .ratesBtn,
 .headerButton,
-.blogSectionBtn {
+.blogSectionBtn,
+.notActiveBtn {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   font-weight: 600;
   width: 9rem;
@@ -115,10 +116,15 @@
 
 //////// Blog section btn //////
 
-.blogSectionBtn {
+.blogSectionBtn,
+.notActiveBtn {
   width: 7.9rem;
   height: 2.7rem;
   font-size: 0.7rem;
   font-weight: 700;
   margin-left: 3.6rem;
+}
+
+.notActiveBtn {
+  background: linear-gradient(178.18deg, $notActive -13.56%, $notActive 158.3%);
 }
