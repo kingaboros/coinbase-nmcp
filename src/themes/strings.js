@@ -73,6 +73,13 @@ const strings = {
     btc: 'Bitcoin',
     card: 'Gift Cards',
   },
+  blogSection: {
+    date: '19 June, 2019 | Business',
+    postHeading: 'ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER...',
+    postExcerp:
+      'Lorem ipsum dolor sit amet, magna habemus ius ad, qui minimum voluptaria in. Ad mei modus quodsi complectitur, postea...',
+    button: 'Read more',
+  },
 };
 
 export default strings;

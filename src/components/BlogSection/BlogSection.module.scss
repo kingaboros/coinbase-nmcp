@@ -3,10 +3,14 @@
 
 .blogCardSection {
   margin-top: 20rem;
-  height: 100vw;
+  padding: 0;
 }
 
 .gradientBorder {
+  margin: 0 auto;
+  height: 22.3rem;
+  width: 29rem;
+  align-items: center;
   border-top: 0.1rem solid $gradient1;
   border-bottom: 0.1rem solid $gradient2;
   background-image: linear-gradient($gradient1, $gradient2),
@@ -15,4 +19,24 @@
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
   border-radius: 0.9rem;
+}
+
+.date {
+  font-size: 0.6rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  padding: 2.75rem 0 0 4rem;
+}
+
+.date,
+.blogExcerp {
+  color: $paragraphColor;
+  font-weight: 400;
+}
+
+.blogExcerp {
+  width: 22rem;
+  font-size: 0.75rem;
+  line-height: 1.75rem;
+  padding: 0.9rem 0 0 3.6rem;
 }
