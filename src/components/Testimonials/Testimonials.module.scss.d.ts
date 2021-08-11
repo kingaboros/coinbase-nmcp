@@ -217,6 +217,7 @@ export const carouselItemLeft: string;
 export const carouselItemNext: string;
 export const carouselItemPrev: string;
 export const carouselItemRight: string;
+export const circles: string;
 export const clearfix: string;
 export const close: string;
 export const col: string;

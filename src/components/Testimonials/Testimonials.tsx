@@ -13,6 +13,7 @@ import * as headingStyle from '../Headings/Heading.module.scss';
 import * as lineClass from '../Dividers/HorizontalLine.module.scss';
 import WavesBottom from '../Dividers/WavesBottom';
 import ReviewCard from './ReviewCard';
+import Circles from './Circles';
 
 const Testimonials = () => {
   return (
@@ -25,8 +26,8 @@ const Testimonials = () => {
         />
         <HorizontalLine lineStyle={lineClass.lineCenter} />
         <p className={classes.description}>{strings.testimonials.paragraph}</p>
-        <ReviewCard />
       </Container>
+      <Circles />
     </div>
   );
 };

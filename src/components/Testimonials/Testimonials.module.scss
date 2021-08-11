@@ -82,3 +82,55 @@
   color: $black;
   font-weight: 400;
 }
+
+.circles {
+  // height: 84.39px;
+  // width: 84.39px;
+  // background-color: #bbb;
+  // border-radius: 50%;
+  // display: inline-block;
+  // background: radial-gradient(
+  //       farthest-side,
+  //       $circle 32%,
+  //       $circle 70%,
+  //       $circle 93%,
+  //       $circle 96%,
+  //       transparent
+  //     )
+  //     left center/60px 60px,
+  //   radial-gradient(farthest-side, $circle 96%, transparent) bottom left/80px
+  //     80px,
+  //   radial-gradient(farthest-side, $circle 96%, transparent) top right/5.2rem
+  //     5.2rem,
+  //   radial-gradient(farthest-side, $circle 96%, transparent) 100px 50px/100px
+  //     100px,
+  //   radial-gradient(farthest-side, $circle 96%, transparent) top left/40px 40px;
+
+  // background-repeat: no-repeat;
+
+  margin: 1rem auto;
+  width: 1200px;
+  height: 500px;
+  background: radial-gradient(
+      84.39px circle at 100px 350px,
+      $circle 50%,
+      transparent 51%
+    ),
+    radial-gradient(68.52px circle at 400px 170px, $circle 50%, transparent 51%),
+    radial-gradient(65.17px circle at 600px 190px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 1050px 60px, $circle 50%, transparent 51%),
+    radial-gradient(58.49px circle at 480px 250px, $circle 50%, transparent 51%),
+    radial-gradient(
+      137.87px circle at 250px 200px,
+      $circle 50%,
+      transparent 50.4%
+    ),
+    radial-gradient(45.12px circle at 340px 340px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 580px 310px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 960px 310px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 820px 430px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 740px 250px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 860px 150px, $circle 50%, transparent 51%),
+    radial-gradient(45.12px circle at 690px 360px, $circle 50%, transparent 51%);
+  background-color: transparent;
+}
