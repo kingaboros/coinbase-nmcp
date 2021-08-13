@@ -7,6 +7,7 @@ import Heading from '../Headings/Heading';
 import * as headingStyle from '../Headings/Heading.module.scss';
 import * as lineClass from '../Dividers/HorizontalLine.module.scss';
 import * as classes from './Paragraphs.module.scss';
+import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 
 const Paragraph = (props: any) => {
   return (
@@ -18,11 +19,12 @@ const Paragraph = (props: any) => {
           </div>
 
           <div className={props.descriptionStyle}>
-            <Heading
+            <HeadingAndDescription
+              headingClass={headingStyle.gradientHeading}
               headingTitle={props.heading}
-              headingStyle={headingStyle.gradientHeading}
+              lineClass={lineClass.line}
             />
-            <HorizontalLine lineStyle={lineClass.line} />
+
             <p className={props.paragraphStyle}>{props.paragraph}</p>
             <Buttons
               url={props.url}

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 
-import Heading from '../Headings/Heading';
-import HorizontalLine from '../Dividers/HorizontalLine';
+import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 import TradeCard from './TradeCard';
 import WavesBottom from '../Dividers/WavesBottom';
 
@@ -19,14 +18,11 @@ const Trade = () => {
     <div className={classes.tradeBackground}>
       <Container>
         <Card className={classes.tradeContainer}>
-          <div>
-            <Heading
-              headingStyle={headingStyle.tradeHeading}
-              headingTitle={strings.headings.trade}
-            />
-            <HorizontalLine lineStyle={lineClass.lineCenter} />
-          </div>
-
+          <HeadingAndDescription
+            headingClass={headingStyle.tradeHeading}
+            headingTitle={strings.headings.trade}
+            lineClass={lineClass.lineCenter}
+          />
           <Row>
             <Col>
               <TradeCard

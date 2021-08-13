@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Heading from '../Headings/Heading';
-import HorizontalLine from '../Dividers/HorizontalLine';
+import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 import BlogCard from './BlogCard';
 
 import * as classes from './BlogSection.module.scss';
@@ -15,14 +14,14 @@ import strings from '../../themes/strings';
 const BlogSection = () => {
   return (
     <Container className={classes.blogCardSection}>
-      <Heading
-        headingStyle={headingStyle.tradeHeading}
+      <HeadingAndDescription
+        headingClass={headingStyle.tradeHeading}
         headingTitle={strings.headings.blog}
+        lineClass={lineClass.lineCenter}
+        descriptionClass={classes.blogSectionDescription}
+        description={strings.descriptions.blogSection}
       />
-      <HorizontalLine lineStyle={lineClass.lineCenter} />
-      <p className={classes.blogSectionDescription}>
-        {strings.descriptions.blogSection}
-      </p>
+
       <Row>
         <Col>
           <BlogCard

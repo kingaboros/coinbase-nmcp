@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
-import Heading from '../Headings/Heading';
-import HorizontalLine from '../Dividers/HorizontalLine';
+import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
@@ -15,14 +13,14 @@ const DownloadSection = () => {
   return (
     <div className={classes.background}>
       <Container>
-        <Heading
-          headingStyle={headingStyle.tradeHeading}
+        <HeadingAndDescription
+          headingClass={headingStyle.tradeHeading}
           headingTitle={strings.headings.download}
+          lineClass={lineClass.lineCenter}
+          descriptionClass={classes.paragraph}
+          description={strings.descriptions.downloadAppSection}
         />
-        <HorizontalLine lineStyle={lineClass.lineCenter} />
-        <p className={classes.paragraph}>
-          {strings.descriptions.downloadAppSection}
-        </p>
+
         <div className={classes.appLogos}>
           <img src={images.appLogos.appStore} />
           <img src={images.appLogos.googlePlay} />
