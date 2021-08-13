@@ -18,8 +18,27 @@
   font-weight: 400;
 }
 
-.appLogos {
+.appLogos,
+.appScreens {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.screensBackground {
+  background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
+  height: 99vh;
+}
+.appScreens {
+  padding: 5rem;
+}
+
+.appScreen {
+  margin-left: 1rem;
+}
+
+.graphic {
+  position: relative;
+  top: -27rem;
+  left: 12rem;
 }

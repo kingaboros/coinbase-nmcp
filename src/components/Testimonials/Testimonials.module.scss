@@ -2,9 +2,21 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .background {
-  height: 1200px;
+  height: 1300px;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   margin-top: 2rem;
+}
+
+.graphic1 {
+  position: relative;
+  top: -25rem;
+  left: 10rem;
+}
+
+.graphic2 {
+  position: relative;
+  top: 33.5rem;
+  left: 65rem;
 }
 
 .description {

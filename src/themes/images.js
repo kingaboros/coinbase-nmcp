@@ -33,9 +33,18 @@ const images = {
     bitcoin: require('../imgs/icons/bitcoin.png').default,
     giftCard: require('../imgs/icons/giftcard.png').default,
   },
+  testimonialGraphics: {
+    graphic1: require('../imgs/graphics/graphics1.png').default,
+    graphic2: require('../imgs/graphics/graphics2.png').default,
+  },
   appLogos: {
     appStore: require('../imgs/app-store.png').default,
     googlePlay: require('../imgs/google-play.png').default,
+  },
+  appScreens: {
+    screen1: require('../imgs/phone1.png').default,
+    screen2: require('../imgs/phone2.png').default,
+    graphic: require('../imgs/graphics/graphics3.png').default,
   },
 };
 

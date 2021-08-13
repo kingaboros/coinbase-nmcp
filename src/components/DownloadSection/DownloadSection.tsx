@@ -8,6 +8,7 @@ import images from '../../themes/images';
 import * as classes from './DownloadSection.module.scss';
 import * as headingStyle from '../Headings/Heading.module.scss';
 import * as lineClass from '../Dividers/HorizontalLine.module.scss';
+import AppImages from './AppImages';
 
 const DownloadSection = () => {
   return (
@@ -26,6 +27,7 @@ const DownloadSection = () => {
           <img src={images.appLogos.googlePlay} />
         </div>
       </Container>
+      <AppImages />
     </div>
   );
 };

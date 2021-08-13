@@ -6,6 +6,7 @@ import Heading from '../Headings/Heading';
 import HorizontalLine from '../Dividers/HorizontalLine';
 
 import strings from '../../themes/strings';
+import images from '../../themes/images';
 
 import * as classes from './Testimonials.module.scss';
 import * as wavesClass from '../Dividers/Waves.module.scss';
@@ -27,6 +28,14 @@ const Testimonials = () => {
         <HorizontalLine lineStyle={lineClass.lineCenter} />
         <p className={classes.description}>{strings.testimonials.paragraph}</p>
       </Container>
+      <img
+        className={classes.graphic1}
+        src={images.testimonialGraphics.graphic1}
+      />
+      <img
+        className={classes.graphic2}
+        src={images.testimonialGraphics.graphic2}
+      />
       <ReviewCard />
       <Circles />
       <WavesBottom wavesStyle={wavesClass.testimonialsBottom} />

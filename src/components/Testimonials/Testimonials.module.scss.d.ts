@@ -504,6 +504,8 @@ export const formGroup: string;
 export const formInline: string;
 export const formRow: string;
 export const formText: string;
+export const graphic1: string;
+export const graphic2: string;
 export const h1: string;
 export const h100: string;
 export const h2: string;
