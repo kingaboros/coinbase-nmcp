@@ -23,8 +23,8 @@ const DownloadSection = () => {
         />
 
         <div className={classes.appLogos}>
-          <img src={images.appLogos.appStore} />
-          <img src={images.appLogos.googlePlay} />
+          <img src={images.appLogos.appStore} alt="app store logo" />
+          <img src={images.appLogos.googlePlay} alt="google play logo" />
         </div>
       </Container>
       <AppImages />

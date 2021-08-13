@@ -24,7 +24,11 @@ const ReviewCard = () => {
             <i className="fas fa-star"></i>
           </Col>
         </Row>
-        <img src={images.icons.bitcoin} className={classes.icons} />
+        <img
+          src={images.icons.bitcoin}
+          className={classes.icons}
+          alt="bitcoin"
+        />
         <p className={classes.reviewTitle}>
           {strings.testimonials.reviewCard.title}
         </p>

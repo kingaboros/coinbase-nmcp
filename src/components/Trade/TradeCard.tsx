@@ -7,7 +7,7 @@ const TradeCard = (props: any) => {
   return (
     <Container className={classes.cardContainer}>
       <div className={classes.iconsCard}>
-        <img src={props.img} className={props.iconStyle} />
+        <img src={props.img} className={props.iconStyle} alt="icon" />
         <p className={classes.description}>{props.title}</p>
       </div>
     </Container>

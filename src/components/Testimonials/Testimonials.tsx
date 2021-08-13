@@ -31,10 +31,12 @@ const Testimonials = () => {
       <img
         className={classes.graphic1}
         src={images.testimonialGraphics.graphic1}
+        alt="graphic"
       />
       <img
         className={classes.graphic2}
         src={images.testimonialGraphics.graphic2}
+        alt="graphic"
       />
       <ReviewCard />
       <Circles />

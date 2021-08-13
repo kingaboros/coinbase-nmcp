@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
 import Header from '../components/Header/Header';
 
 import Paragraphs from '../components/Paragraphs/Paragraphs';
@@ -15,7 +14,6 @@ import strings from '../themes/strings';
 import images from '../themes/images';
 import DownloadSection from '../components/DownloadSection/DownloadSection';
 import NewsletterSection from '../components/NewsletterSection/NewsletterSection';
-import FooterSection from '../Footer/FooterSection';
 
 const Homepage = (props: any) => {
   return (

@@ -11,10 +11,18 @@ const AppImages = () => {
     <div className={classes.screensBackground}>
       <Waves wavesStyle={wavesClass.ratesWavesTop} />
       <div className={classes.appScreens}>
-        <img src={images.appScreens.screen1} />
-        <img className={classes.appScreen} src={images.appScreens.screen2} />
+        <img src={images.appScreens.screen1} alt="phone" />
+        <img
+          className={classes.appScreen}
+          src={images.appScreens.screen2}
+          alt="phone"
+        />
       </div>
-      <img className={classes.graphic} src={images.appScreens.graphic} />
+      <img
+        className={classes.graphic}
+        src={images.appScreens.graphic}
+        alt="graphic"
+      />
     </div>
   );
 };

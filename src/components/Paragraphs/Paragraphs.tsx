@@ -1,13 +1,11 @@
 import React from 'react';
 
+import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 import Buttons from '../Buttons/Buttons';
-import HorizontalLine from '../Dividers/HorizontalLine';
-import Heading from '../Headings/Heading';
 
 import * as headingStyle from '../Headings/Heading.module.scss';
 import * as lineClass from '../Dividers/HorizontalLine.module.scss';
 import * as classes from './Paragraphs.module.scss';
-import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
 
 const Paragraph = (props: any) => {
   return (

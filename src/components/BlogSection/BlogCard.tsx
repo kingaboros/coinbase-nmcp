@@ -1,12 +1,10 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+
 import Heading from '../Headings/Heading';
 import Button from '../Buttons/Buttons';
 
-import strings from '../../themes/strings';
-
 import * as classes from './BlogSection.module.scss';
-import * as btnStyle from '../Buttons/Buttons.module.scss';
 
 const BlogCard = (props: any) => {
   return (
