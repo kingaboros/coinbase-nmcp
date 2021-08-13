@@ -22,6 +22,7 @@ const strings = {
     trade: 'Trade from anywhere',
     blog: 'Our blog',
     download: 'Download our app',
+    newsletter: 'Subscribe our newsletter',
   },
   paragraphs: {
     homeWelcome:
@@ -35,6 +36,8 @@ const strings = {
     blogSection: 'Get to know the latest stuff via our blog post.',
     downloadAppSection:
       'Discover exclusive deals and discounts with our mobile experience.',
+    newsletterSection:
+      'Subscribe to our newsletter for daily/weekly update of our products and services.',
   },
   ratesTable: {
     ratesHeadings: {

@@ -1,0 +1,45 @@
+@import '../../themes/colors.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.newsletterWrapper {
+  margin: 65rem auto;
+  width: auto;
+}
+
+.formWrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 24rem;
+}
+
+.formField {
+  @extend .form-inline;
+}
+
+.inputWrapper {
+  @extend .form-group;
+  @extend .mb-2;
+}
+
+.input {
+  margin-top: 0.5rem;
+  height: 3.4rem;
+  width: 26rem;
+  border: 1rem solid $gradient1;
+  border-width: 0.1rem;
+  // border-image-slice: 1;
+  // border-image-source: linear-gradient(to left, $gradient1, $gradient2);
+  border-radius: 1.5rem;
+  @extend .form-control;
+}
+
+::placeholder {
+  width: 5.6rem;
+  height: 1.25rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: $paragraphColor;
+}

@@ -5,7 +5,8 @@
 .ratesBtn,
 .headerButton,
 .blogSectionBtn,
-.notActiveBtn {
+.notActiveBtn,
+.newsletterBtn {
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   font-weight: 600;
   width: 9rem;
@@ -127,4 +128,10 @@
 
 .notActiveBtn {
   background: linear-gradient(178.18deg, $notActive -13.56%, $notActive 158.3%);
+}
+
+/////////// Newsletter btn //////////////
+
+.newsletterBtn {
+  display: inline-block;
 }

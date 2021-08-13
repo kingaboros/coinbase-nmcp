@@ -14,6 +14,7 @@ import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss
 import strings from '../themes/strings';
 import images from '../themes/images';
 import DownloadSection from '../components/DownloadSection/DownloadSection';
+import NewsletterSection from '../components/NewsletterSection/NewsletterSection';
 
 const Homepage = (props: any) => {
   return (
@@ -51,6 +52,7 @@ const Homepage = (props: any) => {
       <BlogSection />
       <Testimonials />
       <DownloadSection />
+      <NewsletterSection />
     </div>
   );
 };

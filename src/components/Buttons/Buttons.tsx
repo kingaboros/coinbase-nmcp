@@ -5,7 +5,7 @@ import * as btnStyle from './Buttons.module.scss';
 
 const Buttons = (props: any) => {
   return (
-    <Button className={props.btnClass} href={props.url}>
+    <Button type="submit" className={props.btnClass} href={props.url}>
       {props.btnName}
     </Button>
   );
