@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
 import Waves from '../Dividers/Waves';
@@ -16,17 +16,6 @@ import ReviewCard from './ReviewCard';
 import Circles from './Circles';
 
 const Testimonials = () => {
-  const [showReviewCard, setShowReviewCard] = useState(false);
-
-  const handleMouseEnter = (e: any) => {
-    console.log(e.target);
-    setShowReviewCard(true);
-  };
-
-  const handleMouseLeave = (e: any) => {
-    setShowReviewCard(false);
-  };
-
   return (
     <div className={classes.background}>
       <Waves wavesStyle={wavesClass.ratesWavesTop} />
@@ -38,11 +27,9 @@ const Testimonials = () => {
         <HorizontalLine lineStyle={lineClass.lineCenter} />
         <p className={classes.description}>{strings.testimonials.paragraph}</p>
       </Container>
-
-      <Circles
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      />
+      <ReviewCard />
+      <Circles />
+      <WavesBottom wavesStyle={wavesClass.testimonialsBottom} />
     </div>
   );
 };

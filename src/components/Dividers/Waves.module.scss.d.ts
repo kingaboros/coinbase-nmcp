@@ -1488,6 +1488,7 @@ export const tableStriped: string;
 export const tableSuccess: string;
 export const tableWarning: string;
 export const tabPane: string;
+export const testimonialsBottom: string;
 export const textBlack50: string;
 export const textBody: string;
 export const textBreak: string;

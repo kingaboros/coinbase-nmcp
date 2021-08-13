@@ -20,6 +20,9 @@
 }
 
 .reviewsCard {
+  position: relative;
+  top: 15rem;
+  left: 46rem;
   width: 25rem;
   height: 7.6rem;
   border-radius: 1rem;
@@ -84,7 +87,7 @@
 }
 
 .circles {
-  margin: 1rem auto;
+  margin: -8rem auto;
   width: 1200px;
   height: 500px;
   background: radial-gradient(
@@ -109,4 +112,8 @@
     radial-gradient(84.39px circle at 860px 150px, $circle 50%, transparent 51%),
     radial-gradient(45.12px circle at 690px 360px, $circle 50%, transparent 51%);
   background-color: transparent;
+}
+
+.circles:hover::after {
+  content: attr(data-tooltip);
 }
