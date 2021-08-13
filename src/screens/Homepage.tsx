@@ -20,7 +20,6 @@ import FooterSection from '../Footer/FooterSection';
 const Homepage = (props: any) => {
   return (
     <div>
-      <Navbar />
       <Header />
       <Paragraphs
         paragraphClass={paragraphStyle.row}
@@ -54,7 +53,6 @@ const Homepage = (props: any) => {
       <Testimonials />
       <DownloadSection />
       <NewsletterSection />
-      <FooterSection />
     </div>
   );
 };
