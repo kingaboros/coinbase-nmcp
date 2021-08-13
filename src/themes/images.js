@@ -33,6 +33,10 @@ const images = {
     bitcoin: require('../imgs/icons/bitcoin.png').default,
     giftCard: require('../imgs/icons/giftcard.png').default,
   },
+  appLogos: {
+    appStore: require('../imgs/app-store.png').default,
+    googlePlay: require('../imgs/google-play.png').default,
+  },
 };
 
 export default images;

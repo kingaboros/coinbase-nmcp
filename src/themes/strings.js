@@ -21,6 +21,7 @@ const strings = {
     experience: 'Great experience with CoinBase',
     trade: 'Trade from anywhere',
     blog: 'Our blog',
+    download: 'Download our app',
   },
   paragraphs: {
     homeWelcome:
@@ -32,6 +33,8 @@ const strings = {
     homeHeader:
       'CoinBase is a platform for trading your bitcoin and giftcard at the best rate, why not give us a trial.',
     blogSection: 'Get to know the latest stuff via our blog post.',
+    downloadAppSection:
+      'Discover exclusive deals and discounts with our mobile experience.',
   },
   ratesTable: {
     ratesHeadings: {
