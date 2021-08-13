@@ -15,6 +15,7 @@ import strings from '../themes/strings';
 import images from '../themes/images';
 import DownloadSection from '../components/DownloadSection/DownloadSection';
 import NewsletterSection from '../components/NewsletterSection/NewsletterSection';
+import FooterSection from '../Footer/FooterSection';
 
 const Homepage = (props: any) => {
   return (
@@ -53,6 +54,7 @@ const Homepage = (props: any) => {
       <Testimonials />
       <DownloadSection />
       <NewsletterSection />
+      <FooterSection />
     </div>
   );
 };

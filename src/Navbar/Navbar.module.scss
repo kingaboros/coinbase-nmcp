@@ -44,3 +44,20 @@
   transition: all 0.5s ease;
   @extend .text-white;
 }
+
+.footerNav {
+  margin-top: 1.5rem;
+  margin-left: -0.9rem;
+  @extend .nav;
+  @extend .flex-column;
+}
+
+.footerNavLink {
+  color: $footerTextColor;
+  font-size: 1rem;
+  @extend .nav-link;
+}
+
+.footerNavLink:hover {
+  color: $gradient1;
+}

@@ -1,0 +1,97 @@
+@import '../themes/colors.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.footerWrapper {
+  margin-top: 5.6rem;
+  background-color: $footerBackground;
+  height: 22rem;
+}
+.logoColumn {
+  padding: 2rem 3rem 0 3rem;
+}
+
+.footerLogo {
+  width: 10rem;
+  height: auto;
+}
+
+.footerHeading {
+  margin-top: 4.5rem;
+  color: $white;
+  height: 1.5rem;
+  width: 11.5;
+  font-size: 1.12;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.paragraph,
+.coder,
+.contactText {
+  color: $footerTextColor;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  height: 5rem;
+  width: 23rem;
+  margin-top: 1.25rem;
+}
+
+.contactTextWrapper {
+  margin-top: 2rem;
+}
+.contactText {
+  height: 1rem;
+}
+
+.coder,
+.downloadLink {
+  color: $darkGrey;
+  font-size: 0.75rem;
+  margin: 0;
+  padding-top: 4rem;
+}
+.downloadLink {
+  color: $footerTextColor;
+  font-size: 0.9rem;
+}
+
+.linkDiv {
+  padding-top: 4rem;
+}
+
+.socialIcons {
+  display: inline;
+  margin-top: -1rem;
+  padding: 0;
+  color: $footerTextColor;
+  font-size: 1.5rem;
+  @extend .col-4;
+}
+
+.footerColumn {
+  @extend .col-md-2;
+}
+
+.icons {
+  margin-right: 1.1rem;
+}
+.icons:hover,
+.downloadLink:hover {
+  color: $gradient1;
+  transition: all 0.5s;
+}
+
+.instaColumn {
+  width: 15rem;
+  margin-left: -10rem;
+}
+
+.square {
+  display: inline;
+  padding: 0.5rem;
+  margin-top: 1.2rem;
+  width: 4.3rem;
+  height: 4.3rem;
+}

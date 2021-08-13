@@ -46,6 +46,7 @@ const images = {
     screen2: require('../imgs/phone2.png').default,
     graphic: require('../imgs/graphics/graphics3.png').default,
   },
+  footer: require('../imgs/square.png').default,
 };
 
 export default images;

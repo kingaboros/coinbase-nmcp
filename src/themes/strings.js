@@ -102,6 +102,18 @@ const strings = {
       comment: 'Good deal and very wonderful service thank you.',
     },
   },
+  footer: {
+    description:
+      ' Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum',
+    coder: '© 2021 Coded by Kinga',
+    footerNav: 'CoinBase Links',
+    contact: 'Contact Us',
+    phoneNo: '(+234) 137632128',
+    email: 'Coinbase@yahoo.com',
+    address: 'Address goes here',
+    download: 'Download Our App',
+    instagram: 'CoinBase Instagram',
+  },
 };
 
 export default strings;
