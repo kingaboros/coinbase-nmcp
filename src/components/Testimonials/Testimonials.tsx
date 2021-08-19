@@ -1,20 +1,20 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
-import Waves from '../Dividers/Waves';
 import Heading from '../Headings/Heading';
-import HorizontalLine from '../Dividers/HorizontalLine';
+import ReviewCard from './ReviewCard';
+
+import Waves from '../Features/Waves/Waves';
+import WavesBottom from '../Features/Waves/WavesBottom';
+import HorizontalLine from '../Features/HorizontalLine/HorizontalLine';
+import Circles from './Circles';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
 
 import * as classes from './Testimonials.module.scss';
-import * as wavesClass from '../Dividers/Waves.module.scss';
+import * as wavesClass from '../Features/Waves/Waves.module.scss';
 import * as headingStyle from '../Headings/Heading.module.scss';
-import * as lineClass from '../Dividers/HorizontalLine.module.scss';
-import WavesBottom from '../Dividers/WavesBottom';
-import ReviewCard from './ReviewCard';
-import Circles from './Circles';
+import * as lineClass from '../Features/HorizontalLine/HorizontalLine.module.scss';
 
 const Testimonials = () => {
   return (

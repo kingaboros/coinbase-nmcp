@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Heading from '../Headings/Heading';
-import HorizontalLine from '../Dividers/HorizontalLine';
+import HorizontalLine from '../Features/HorizontalLine/HorizontalLine';
 
 const HeadingAndDescription = (props: any) => {
   return (

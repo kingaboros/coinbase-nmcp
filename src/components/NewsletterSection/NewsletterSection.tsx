@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
+import HeadingAndDescription from '../Headings/HeadingAndDescription';
 import FormComp from './FormComp';
 
 import strings from '../../themes/strings';
@@ -9,7 +9,7 @@ import * as classes from './NewsletterSection.module.scss';
 import * as downloadClasses from '../DownloadSection/DownloadSection.module.scss';
 
 import * as headingStyle from '../Headings/Heading.module.scss';
-import * as lineClass from '../Dividers/HorizontalLine.module.scss';
+import * as lineClass from '../Features/HorizontalLine/HorizontalLine.module.scss';
 
 const NewsletterSection = () => {
   return (

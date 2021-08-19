@@ -1,15 +1,15 @@
 import React from 'react';
-import Buttons from '../Buttons/Buttons';
-import WavesBottom from '../Dividers/WavesBottom';
-
 import { Container, Row, Col } from 'react-bootstrap';
 
-import * as classes from './Header.module.scss';
-import * as btnStyle from '../Buttons/Buttons.module.scss';
-import * as wavesClass from '../Dividers/Waves.module.scss';
+import Buttons from '../Buttons/Buttons';
+import WavesBottom from '../Features/Waves/WavesBottom';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
+
+import * as classes from './Header.module.scss';
+import * as btnStyle from '../Buttons/Buttons.module.scss';
+import * as wavesClass from '../Features/Waves/Waves.module.scss';
 
 const Header = () => {
   return (

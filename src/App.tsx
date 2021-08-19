@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Homepage from './screens/Homepage';
-import Navbar from '../src/Navbar/Navbar';
-import About from './components/About/About';
-import Sell from './components/Sell/Sell';
-import Blog from './components/Blog/Blog';
-import ContactUs from './components/ContactUs/ContactUs';
+import Navbar from './Navigation/Navbar';
+import About from './screens/About';
+import Sell from './screens/Sell';
+import Blog from './screens/Blog';
+import ContactUs from './screens/ContactUs';
+import FooterSection from './Footer/FooterSection';
 
 import './App.scss';
-import FooterSection from './Footer/FooterSection';
 
 const App = () => {
   return (

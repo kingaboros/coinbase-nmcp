@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
+import HeadingAndDescription from '../Headings/HeadingAndDescription';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
+import AppImages from './AppImages';
 
 import * as classes from './DownloadSection.module.scss';
 import * as headingStyle from '../Headings/Heading.module.scss';
-import * as lineClass from '../Dividers/HorizontalLine.module.scss';
-import AppImages from './AppImages';
+import * as lineClass from '../Features/HorizontalLine/HorizontalLine.module.scss';
 
 const DownloadSection = () => {
   return (

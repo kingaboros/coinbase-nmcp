@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import HeadingAndDescription from '../HeadingAndDescription/HeadingAndDescription';
+import HeadingAndDescription from '../Headings/HeadingAndDescription';
 import BlogCard from './BlogCard';
 
 import * as classes from './BlogSection.module.scss';
 import * as headingStyle from '../Headings/Heading.module.scss';
-import * as lineClass from '../Dividers/HorizontalLine.module.scss';
+import * as lineClass from '../Features/HorizontalLine/HorizontalLine.module.scss';
 import * as btnStyle from '../Buttons/Buttons.module.scss';
 
 import strings from '../../themes/strings';

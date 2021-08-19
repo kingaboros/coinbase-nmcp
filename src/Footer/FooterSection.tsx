@@ -1,14 +1,14 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
+import FooterNav from '../Navigation/FooterNav';
 import LogoColumn from './LogoColumn';
-import FooterNav from '../Navbar/FooterNav';
+import ContactColumn from './ContactColumn';
+import InstaColumn from './InstaColumn';
 
 import strings from '../themes/strings';
 
 import * as classes from './FooterSection.module.scss';
-import ContactColumn from './ContactColumn';
-import InstaColumn from './InstaColumn';
 
 const FooterSection = () => {
   return (

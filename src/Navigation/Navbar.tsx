@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+
 import Buttons from '../components/Buttons/Buttons';
 import strings from '../themes/strings';
 import images from '../themes/images';
