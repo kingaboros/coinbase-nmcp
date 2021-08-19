@@ -1,15 +1,23 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Heading from '../Headings/Heading';
 
 import strings from '../../themes/strings';
 
 import * as classes from './RatesTable.module.scss';
+import * as headingStyle from '../Headings/Heading.module.scss';
 
 const RatesReservesColumn = () => {
   return (
     <Container>
       <Row>
-        <Col className={classes.tableColumn}>
+        <Col className={classes.ratesColumns}>
+          <div className={classes.ratesHeaderRow}>
+            <Heading
+              headingTitle={strings.ratesTable.ratesHeadings.reserves}
+              headingStyle={headingStyle.ratesHeading}
+            />
+          </div>
           <table>
             <tbody>
               <tr>

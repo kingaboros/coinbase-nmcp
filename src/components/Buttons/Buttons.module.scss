@@ -73,42 +73,11 @@
   transform: scale(0.8);
 }
 
-// .headerBtn {
-//   position: relative;
-//   color: $gradient1;
-//   background: -webkit-linear-gradient($gradient1, $gradient2);
-//   background-clip: text;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-//   font-weight: bold;
-//   width: 10rem;
-//   margin-top: -0.3rem;
-//   margin-left: 0.2rem;
-//   padding: 1rem;
-//   border: none;
-//   outline: none;
-//   text-transform: uppercase;
-//   transition: all 0.5s;
-//   text-align: center;
-// }
-
-// .headerBtn:after {
-//   content: '';
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background: $white;
-//   z-index: -1;
-//   border-radius: 1.7rem;
-// }
-
 //////Rates Btn /////
 .ratesBtn {
   font-size: 0.8rem;
   display: block;
-  margin: -2.5rem 0 0.2rem 3.8rem;
+  margin: 1rem auto;
   padding: 0.7rem;
   border-radius: 0.7rem;
   text-transform: lowercase;

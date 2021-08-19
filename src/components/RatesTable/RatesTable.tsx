@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 import RatesHeader from './RatesHeader';
+
 import RatesColumn from './RatesColumn';
 import RatesReservesColumn from './RatesReservesColumn';
 import RatesExchangesColumn from './RatesExchangesColumn';
-
 import WavesBottom from '../Features/Waves/WavesBottom';
 import Waves from '../Features/Waves/Waves';
 
@@ -17,22 +17,17 @@ const RatesTable = () => {
       <Waves wavesStyle={wavesClass.ratesWavesTop} />
       <Container>
         <Card className={classes.ratesCard}>
-          <Card.Header className={classes.ratesHeaderRow}>
-            <RatesHeader />
-          </Card.Header>
-          <Card.Body>
-            <Row>
-              <Col>
-                <RatesColumn />
-              </Col>
-              <Col>
-                <RatesReservesColumn />
-              </Col>
-              <Col>
-                <RatesExchangesColumn />
-              </Col>
-            </Row>
-          </Card.Body>
+          <Row>
+            <Col className={classes.tableColumn}>
+              <RatesColumn />
+            </Col>
+            <Col className={classes.tableColumn}>
+              <RatesReservesColumn />
+            </Col>
+            <Col className={classes.tableColumn}>
+              <RatesExchangesColumn />
+            </Col>
+          </Row>
         </Card>
       </Container>
       <WavesBottom wavesStyle={wavesClass.ratesBottom} />

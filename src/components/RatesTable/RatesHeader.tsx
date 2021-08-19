@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Heading from '../Headings/Heading';
-
+import RatesReservesColumn from './RatesReservesColumn';
+import RatesExchangesColumn from './RatesExchangesColumn';
 import strings from '../../themes/strings';
 
 import * as headingStyle from '../Headings/Heading.module.scss';
+import * as classes from './RatesTable.module.scss';
 
 const RatesHeader = () => {
   return (
@@ -16,18 +18,8 @@ const RatesHeader = () => {
             headingStyle={headingStyle.ratesHeadingTitle}
           />
         </Col>
-        <Col>
-          <Heading
-            headingTitle={strings.ratesTable.ratesHeadings.reserves}
-            headingStyle={headingStyle.ratesHeading}
-          />
-        </Col>
-        <Col>
-          <Heading
-            headingTitle={strings.ratesTable.ratesHeadings.exchanges}
-            headingStyle={headingStyle.ratesHeading}
-          />
-        </Col>
+        <Col></Col>
+        <Col></Col>
       </Row>
     </Container>
   );

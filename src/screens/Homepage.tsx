@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import Paragraphs from '../components/Paragraphs/Paragraphs';
-
 import RatesTable from '../components/RatesTable/RatesTable';
 import BlogSection from '../components/BlogSection/BlogSection';
 import Trade from '../components/Trade/Trade';
