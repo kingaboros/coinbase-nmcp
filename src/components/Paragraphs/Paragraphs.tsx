@@ -3,7 +3,6 @@ import React from 'react';
 import HeadingAndDescription from '../Headings/HeadingAndDescription';
 import Buttons from '../Buttons/Buttons';
 
-import * as headingStyle from '../Headings/Heading.module.scss';
 import * as lineClass from '../Features/HorizontalLine/HorizontalLine.module.scss';
 import * as classes from './Paragraphs.module.scss';
 

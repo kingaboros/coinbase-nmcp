@@ -13,14 +13,6 @@
   top: -1.5rem;
 }
 
-@media (max-width: 768px) {
-  .wavesBottom,
-  .ratesWavesBottom {
-    height: 40px;
-    min-height: 40px;
-  }
-}
-
 .ratesWavesTop,
 .ratesBottom,
 .tradeBottom,
@@ -50,6 +42,15 @@
   left: -8rem;
   top: -21rem;
   z-index: -1;
+}
+
+@media (max-width: 500px) {
+  .wavesBottom,
+  .ratesBottom,
+  .ratesWavesBottom {
+    height: 100px;
+    min-height: 40px;
+  }
 }
 
 @media (max-width: 1365px) {

@@ -73,6 +73,12 @@
   transform: scale(0.8);
 }
 
+@media only screen and (min-width: 500px) {
+  .headerButton {
+    margin-left: 2rem;
+  }
+}
+
 //////Rates Btn /////
 .ratesBtn {
   font-size: 0.8rem;
