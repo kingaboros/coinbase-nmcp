@@ -51,7 +51,7 @@ const BlogSection = () => {
             btnName={strings.blogSection.button}
           />
         </Col>
-        <Col>
+        <Col className={classes.blogCardColumn}>
           <BlogCard
             stateStyle={classes.active}
             borderStyle={classes.cardBackground}

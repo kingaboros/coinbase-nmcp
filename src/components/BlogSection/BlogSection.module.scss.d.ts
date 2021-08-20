@@ -126,6 +126,7 @@ export const bgWarning: string;
 export const bgWhite: string;
 export const blockquote: string;
 export const blockquoteFooter: string;
+export const blogCardColumn: string;
 export const blogCardSection: string;
 export const blogExcerp: string;
 export const blogSectionDescription: string;

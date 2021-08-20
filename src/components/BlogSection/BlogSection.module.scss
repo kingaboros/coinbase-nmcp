@@ -75,3 +75,9 @@
 .notActiveExcerp {
   color: $notActive;
 }
+
+@media screen and (min-width: 500px) {
+  .blogCardColumn {
+    margin-top: 30rem;
+  }
+}
