@@ -56,7 +56,7 @@
   color: $paragraphColor;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .tradeContainer {
     margin-left: -6rem;
     width: 400px;
@@ -76,10 +76,29 @@
   .tradeContainer {
     height: 80vh;
   }
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .iconsCard {
+    margin-top: 5rem;
+    margin-right: 0;
+    width: 16rem;
+    height: 14rem;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
   .tradeContainer {
     height: 54vh;
+  }
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .iconsCard {
+    margin-top: 5rem;
+    margin-right: 0;
+    width: 16rem;
   }
 }
