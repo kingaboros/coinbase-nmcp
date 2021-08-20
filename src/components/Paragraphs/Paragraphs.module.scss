@@ -64,7 +64,27 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
+  .paragraphWrapper {
+    margin: 0 0 2rem 6rem;
+    width: 100vw;
+    height: auto;
+  }
+  .imgCol {
+    height: auto;
+    width: 100%;
+    margin: 0 0 3rem -12.5rem;
+  }
+  .imgRight {
+    margin-left: -7rem;
+  }
+
+  .paragraphReverse {
+    margin-left: -4.5rem;
+    padding-left: 4rem;
+    width: 400px;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -74,6 +94,10 @@
   .imgCol {
     margin-left: -6rem;
     margin-right: 3rem;
+  }
+
+  .imgRight {
+    margin-left: 6rem;
   }
 
   .paragraphReverse {
@@ -89,9 +113,15 @@
 
 @media only screen and (min-width: 1600px) {
   .paragraphReverse {
-    width: auto;
+    width: 100%;
+    align-items: right;
   }
   .imgCol {
+    padding-left: 12rem;
+  }
+
+  .paragraphTextReverse {
+    margin: 8rem 0 0 -3rem;
     padding-left: 8rem;
   }
 }

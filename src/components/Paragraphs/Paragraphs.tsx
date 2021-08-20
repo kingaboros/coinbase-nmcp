@@ -18,17 +18,19 @@ const Paragraph = (props: any) => {
 
           <div className={props.descriptionStyle}>
             <HeadingAndDescription
-              headingClass={headingStyle.gradientHeading}
+              headingClass={props.headingStyle}
               headingTitle={props.heading}
               lineClass={lineClass.line}
             />
 
-            <p className={props.paragraphStyle}>{props.paragraph}</p>
-            <Buttons
-              url={props.url}
-              btnClass={props.btnStyle}
-              btnName={props.btnName}
-            />
+            <div>
+              <p className={props.paragraphStyle}>{props.paragraph}</p>
+              <Buttons
+                url={props.url}
+                btnClass={props.btnStyle}
+                btnName={props.btnName}
+              />
+            </div>
           </div>
         </div>
       </div>

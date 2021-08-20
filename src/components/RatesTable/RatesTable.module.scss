@@ -160,13 +160,9 @@ td {
     width: 90vw;
     margin-left: -4rem;
   }
-}
-@media only screen and (min-width: 1355px) {
-  .ratesColumnSingle {
-    margin-left: 8rem;
-  }
   .reservesColumnSingle {
-    padding: 1.5rem;
+    padding: 0;
+    margin-top: 1rem;
   }
   .exchangeColumnSingle {
     padding: 0;
@@ -179,18 +175,13 @@ td {
     width: 80vw;
     margin-left: -12.5rem;
   }
+  .ratesColumnSingle {
+    margin-left: 8rem;
+  }
+  .reservesColumnSingle {
+    padding: 1.5rem;
+  }
+  .exchangeColumnSingle {
+    padding: 0;
+  }
 }
-
-// @media only screen and (min-width: 1912px) {
-//   .reservesColumnSingle {
-//     padding-top: 2rem;
-//   }
-//   .exchangeColumnSingle {
-//     padding-top: 2rem;
-//   }
-
-//   .ratesColumnSingle {
-//     margin-left: 4rem;
-//     padding-top: 1.5rem;
-//   }
-// }

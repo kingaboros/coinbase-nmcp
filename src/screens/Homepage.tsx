@@ -10,6 +10,7 @@ import NewsletterSection from '../components/NewsletterSection/NewsletterSection
 
 import * as btnStyle from '../components/Buttons/Buttons.module.scss';
 import * as paragraphStyle from '../components/Paragraphs/Paragraphs.module.scss';
+import * as headingStyle from '../components/Headings/Heading.module.scss';
 
 import strings from '../themes/strings';
 import images from '../themes/images';
@@ -25,6 +26,7 @@ const Homepage = (props: any) => {
         alt="people waving"
         descriptionStyle={paragraphStyle.paragraph}
         heading={strings.headings.welcome}
+        headingStyle={headingStyle.gradientHeading}
         paragraph={strings.paragraphs.homeWelcome}
         paragraphStyle={paragraphStyle.paragraph}
         url="discover"
@@ -35,10 +37,11 @@ const Homepage = (props: any) => {
       <Paragraphs
         paragraphClass={paragraphStyle.paragraphReverse}
         img={images.home.stars}
-        imgStyle={paragraphStyle.img}
+        imgStyle={paragraphStyle.imgRight}
         descriptionStyle={paragraphStyle.paragraphTextReverse}
         alt="person with laptop"
         heading={strings.headings.experience}
+        headingStyle={headingStyle.reverseParagraphHeading}
         paragraph={strings.paragraphs.homeExperience}
         paragraphStyle={paragraphStyle.paragraphReverse}
         url="discover"

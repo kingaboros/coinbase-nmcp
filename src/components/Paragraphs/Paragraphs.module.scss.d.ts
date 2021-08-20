@@ -516,6 +516,7 @@ export const hide: string;
 export const img: string;
 export const imgCol: string;
 export const imgFluid: string;
+export const imgRight: string;
 export const imgThumbnail: string;
 export const initialism: string;
 export const inputGroup: string;

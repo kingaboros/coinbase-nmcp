@@ -1412,6 +1412,7 @@ export const pyXl4: string;
 export const pyXl5: string;
 export const ratesHeading: string;
 export const ratesHeadingTitle: string;
+export const reverseParagraphHeading: string;
 export const rounded: string;
 export const rounded0: string;
 export const roundedBottom: string;

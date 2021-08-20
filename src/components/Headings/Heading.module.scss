@@ -6,7 +6,8 @@
 .ratesHeadingTitle,
 .tradeHeading,
 .blogHeading,
-.notActiveHeading {
+.notActiveHeading,
+.reverseParagraphHeading {
   position: relative;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   background-clip: text;
@@ -57,4 +58,10 @@
   margin: 3rem auto 1.5rem;
   text-align: center;
   width: 20.4rem;
+}
+
+@media screen and (min-width: 500px) {
+  .reverseParagraphHeading {
+    width: 20rem;
+  }
 }
