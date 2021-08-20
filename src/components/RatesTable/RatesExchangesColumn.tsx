@@ -25,54 +25,56 @@ const RatesExchangesColumn = () => {
             btnName={strings.buttons.ratesBtn}
           />
           <div className={classes.scrollBar}>
-            <table>
-              <tbody>
-                <tr>
-                  <td className={classes.tableText}>
-                    {strings.ratesTable.exchangeColumn.btcFull}
-                  </td>
-                  <td className={classes.exchangeIcons}>
-                    <i className="fas fa-long-arrow-alt-right"></i>
-                  </td>
-                  <td className={classes.tableTextExhange}>
-                    {strings.ratesTable.exchangeColumn.bt}
-                  </td>
-                </tr>
-                <tr>
-                  <td className={classes.tableTextExhange}>
-                    <strong>
-                      {strings.ratesTable.exchangeColumn.btcPrice}
-                    </strong>
-                  </td>
-                  <td className={classes.tableTextExhange}>
-                    {strings.ratesTable.coins.btc}
-                  </td>
-                  <td className={classes.exchangeIcons}>
-                    <i className="fas fa-exchange-alt"></i>
-                  </td>
-                  <td className={classes.tableTextExhange}>
-                    <strong>
-                      {strings.ratesTable.exchangeColumn.ngnPrice}
-                    </strong>
-                  </td>
-                  <td className={classes.tableTextExhange}>
-                    {strings.ratesTable.coins.ngn}
-                  </td>
-                </tr>
-                <hr className={classes.columnDivider} />
-                <tr>
-                  <td className={classes.tableTextExhange}>
-                    {strings.ratesTable.exchangeColumn.amazonCard}
-                  </td>
-                  <td className={classes.exchangeIcons}>
-                    <i className="fas fa-long-arrow-alt-right"></i>
-                  </td>
-                  <td className={classes.tableTextExhange}>
-                    {strings.ratesTable.exchangeColumn.bt}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div className={classes.exchangeColumnSingle}>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className={classes.tableText}>
+                      {strings.ratesTable.exchangeColumn.btcFull}
+                    </td>
+                    <td className={classes.exchangeIcons}>
+                      <i className="fas fa-long-arrow-alt-right"></i>
+                    </td>
+                    <td className={classes.tableTextExhange}>
+                      {strings.ratesTable.exchangeColumn.bt}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className={classes.tableTextExhange}>
+                      <strong>
+                        {strings.ratesTable.exchangeColumn.btcPrice}
+                      </strong>
+                    </td>
+                    <td className={classes.tableTextExhange}>
+                      {strings.ratesTable.coins.btc}
+                    </td>
+                    <td className={classes.exchangeIcons}>
+                      <i className="fas fa-exchange-alt"></i>
+                    </td>
+                    <td className={classes.tableTextExhange}>
+                      <strong>
+                        {strings.ratesTable.exchangeColumn.ngnPrice}
+                      </strong>
+                    </td>
+                    <td className={classes.tableTextExhange}>
+                      {strings.ratesTable.coins.ngn}
+                    </td>
+                  </tr>
+                  <hr className={classes.columnDivider} />
+                  <tr>
+                    <td className={classes.tableTextExhange}>
+                      {strings.ratesTable.exchangeColumn.amazonCard}
+                    </td>
+                    <td className={classes.exchangeIcons}>
+                      <i className="fas fa-long-arrow-alt-right"></i>
+                    </td>
+                    <td className={classes.tableTextExhange}>
+                      {strings.ratesTable.exchangeColumn.bt}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </Col>
       </Row>

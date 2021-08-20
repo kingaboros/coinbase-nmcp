@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
-import RatesHeader from './RatesHeader';
 
 import RatesColumn from './RatesColumn';
 import RatesReservesColumn from './RatesReservesColumn';
