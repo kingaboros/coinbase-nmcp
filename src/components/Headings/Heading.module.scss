@@ -72,3 +72,9 @@
     margin-top: 1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .tradeHeading {
+    margin-top: -6rem;
+  }
+}
