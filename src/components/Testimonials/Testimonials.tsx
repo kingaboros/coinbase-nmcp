@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Heading from '../Headings/Heading';
+import HeadingAndDescription from '../Headings/HeadingAndDescription';
 import ReviewCard from './ReviewCard';
 
 import Waves from '../Features/Waves/Waves';
 import WavesBottom from '../Features/Waves/WavesBottom';
-import HorizontalLine from '../Features/HorizontalLine/HorizontalLine';
-import Circles from './Circles';
+import Circles from '../Features/Circles/Circles';
 
 import strings from '../../themes/strings';
 import images from '../../themes/images';
@@ -21,12 +20,13 @@ const Testimonials = () => {
     <div className={classes.background}>
       <Waves wavesStyle={wavesClass.ratesWavesTop} />
       <Container>
-        <Heading
-          headingStyle={headingStyle.testimonialHeading}
+        <HeadingAndDescription
+          headingClass={headingStyle.testimonialHeading}
           headingTitle={strings.testimonials.heading}
+          lineClass={lineClass.lineCenter}
+          descriptionClass={classes.description}
+          description={strings.testimonials.paragraph}
         />
-        <HorizontalLine lineStyle={lineClass.lineCenter} />
-        <p className={classes.description}>{strings.testimonials.paragraph}</p>
       </Container>
       <img
         className={classes.graphic1}

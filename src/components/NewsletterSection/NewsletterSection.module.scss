@@ -43,3 +43,9 @@
   font-weight: 400;
   color: $paragraphColor;
 }
+
+@media screen and (min-width: 500px) {
+  .newsletterWrapper {
+    padding-top: 20rem;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as classes from './Testimonials.module.scss';
+import * as classes from './Circles.module.scss';
 
 const Circles = () => {
   return <div className={classes.circles}></div>;

@@ -1,0 +1,42 @@
+@import '../../../themes/colors.scss';
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.circles {
+  margin: -8rem auto;
+  width: 1200px;
+  height: 500px;
+  background: radial-gradient(
+      84.39px circle at 100px 350px,
+      $circle 50%,
+      transparent 51%
+    ),
+    radial-gradient(68.52px circle at 400px 170px, $circle 50%, transparent 51%),
+    radial-gradient(65.17px circle at 600px 190px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 1050px 60px, $circle 50%, transparent 51%),
+    radial-gradient(58.49px circle at 480px 250px, $circle 50%, transparent 51%),
+    radial-gradient(
+      137.87px circle at 250px 200px,
+      $circle 50%,
+      transparent 50.4%
+    ),
+    radial-gradient(45.12px circle at 340px 340px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 580px 310px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 960px 310px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 820px 430px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 740px 250px, $circle 50%, transparent 51%),
+    radial-gradient(84.39px circle at 860px 150px, $circle 50%, transparent 51%),
+    radial-gradient(45.12px circle at 690px 360px, $circle 50%, transparent 51%);
+  background-color: transparent;
+}
+
+.circles:hover::after {
+  content: attr(data-tooltip);
+}
+
+@media screen and (min-width: 500px) {
+  .circles {
+    margin: -6rem auto;
+    width: auto;
+    height: 500px;
+  }
+}
