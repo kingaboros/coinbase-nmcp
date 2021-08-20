@@ -52,14 +52,21 @@
     min-height: 40px;
   }
   .testimonialsBottom {
-    margin-top: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonialsBottom {
+    margin-top: -6rem;
   }
 }
 
 @media (max-width: 1365px) {
   .ratesWavesTop,
   .ratesBottom,
-  .tradeBottom {
+  .tradeBottom,
+  .testimonialsBottom {
     background-size: contain;
   }
 }

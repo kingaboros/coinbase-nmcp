@@ -98,7 +98,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .graphic1 {
     top: -25rem;
     left: 1rem;
