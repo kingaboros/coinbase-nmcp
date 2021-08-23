@@ -3,8 +3,8 @@
 
 .circles {
   margin: -8rem auto;
-  width: 1200px;
-  height: 500px;
+  width: 75rem;
+  height: 32rem;
   background: radial-gradient(
       84.39px circle at 100px 350px,
       $circle 50%,
@@ -33,10 +33,18 @@
   content: attr(data-tooltip);
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .circles {
     margin: -6rem auto;
     width: auto;
-    height: 500px;
+    height: 32rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .circles {
+    margin: -9rem auto;
+    width: 75rem;
+    height: 32rem;
   }
 }
