@@ -34,7 +34,7 @@
 }
 
 .testimonialsBottom {
-  top: 4rem;
+  top: 5rem;
 }
 
 .tradeBottom {
@@ -62,11 +62,14 @@
   }
 }
 
-@media (max-width: 1365px) {
+@media (min-width: 1500px) {
   .ratesWavesTop,
   .ratesBottom,
-  .tradeBottom,
-  .testimonialsBottom {
+  .tradeBottom {
     background-size: contain;
+  }
+
+  .testimonialsBottom {
+    margin-top: -3rem;
   }
 }

@@ -2,7 +2,7 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .background {
-  height: 1300px;
+  height: 82rem;
   background: linear-gradient(178.18deg, $gradient1 -13.56%, $gradient2 158.3%);
   margin-top: 2rem;
 }
@@ -112,5 +112,16 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1500px) {
+  .background {
+    height: 90rem;
+    margin-bottom: 10rem;
+  }
+  .graphic2 {
+    top: 35rem;
+    left: 95rem;
+  }
+  .reviewsCard {
+    left: 63rem;
+  }
 }
