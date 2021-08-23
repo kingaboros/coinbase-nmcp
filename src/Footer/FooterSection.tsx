@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import FooterNav from '../Navigation/FooterNav';
 import LogoColumn from './LogoColumn';
@@ -17,11 +17,11 @@ const FooterSection = () => {
         <Col className={classes.logoColumn}>
           <LogoColumn />
         </Col>
-        <Col>
+        <Col className={classes.footerNavColumn}>
           <h4 className={classes.footerHeading}>{strings.footer.footerNav}</h4>
           <FooterNav />
         </Col>
-        <Col className={classes.instaColumn}>
+        <Col className={classes.contactColumn}>
           <h4 className={classes.footerHeading}>{strings.footer.contact}</h4>
           <ContactColumn />
         </Col>
